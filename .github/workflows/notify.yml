@@ -15,3 +15,8 @@ jobs:
           token: ${{ secrets.REPO_DISPATCH_TOKEN }}
           repository: ${{ secrets.BUILD_REPO_NAME }}
           event-type: build
+          client-payload: |
+            {
+              "branch": "${{ github.ref }}",
+              "commit": "${{ github.sha }}"
+            }

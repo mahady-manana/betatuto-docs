@@ -1,0 +1,17 @@
+name: Trigger Main Repo Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Main Repo Build
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_DISPATCH_TOKEN }}
+          repository: ${{ .secretsBUILD_REPO_NAME }}
+          event-type: build

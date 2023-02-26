@@ -6,7 +6,7 @@ title: "Array"
 category: "Array"
 description: "Need description"
 categoryOrder: 2
-order: 1000
+order: 1
 githubPath: /javascript/Array/index.md
 contributor: [
   {

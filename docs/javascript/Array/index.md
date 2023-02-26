@@ -1,9 +1,10 @@
 ---
 tag: "javascript"
-slug: "/javascript/Array"
+slug: "/javascript/array"
 date: "2022-11-24"
 title: "Array"
 category: "Array"
+description: "Need description"
 categoryOrder: 2
 order: 1000
 githubPath: /javascript/Array/index.md
@@ -15,14 +16,6 @@ contributor: [
 ]
 ---
 
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, debitis aperiam tempora ab vitae sequi illum dolore nam natus repellendus officia pariatur hic illo recusandae quam nemo reprehenderit officiis? Cupiditate!
 
-## Array.constructor()
+## Construction In Progress
 
-```javascript
-
-const x = 10
-
-console.log(x)
-
-```

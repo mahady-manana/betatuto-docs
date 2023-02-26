@@ -6,6 +6,7 @@ title: "Introduction"
 category: "Basic concepts"
 categoryOrder: 1
 order: 1
+githubPath: /javascript/index.md
 contributor: [
   {
     name: "Mahady Manana",

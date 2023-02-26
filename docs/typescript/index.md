@@ -6,6 +6,7 @@ title: "JavaScript"
 category: "Array"
 categoryOrder: 1
 order: 1000
+githubPath: /typescript/index.md
 contributor: [
   {
     name: "Mahady Manana",

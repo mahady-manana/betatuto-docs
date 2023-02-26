@@ -1,11 +1,12 @@
 ---
 tag: "javascript"
-slug: "/javascript/array/reduce"
+slug: "/javascript/Array/Reduce"
 date: "2022-11-24"
 updated: "2023-02-26"
 title: "Array.prototype.reduce()"
 category: "Array"
 order: 1003
+githubPath: /javascript/Array/Reduce.md
 contributor: [
   {
     name: "Mahady Manana",

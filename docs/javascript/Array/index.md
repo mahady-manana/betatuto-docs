@@ -1,11 +1,12 @@
 ---
 tag: "javascript"
-slug: "/javascript/array"
+slug: "/javascript/Array"
 date: "2022-11-24"
 title: "Array"
 category: "Array"
 categoryOrder: 2
 order: 1000
+githubPath: /javascript/Array/index.md
 contributor: [
   {
     name: "Mahady Manana",

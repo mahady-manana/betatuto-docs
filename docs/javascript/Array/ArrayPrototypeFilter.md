@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-filter"
 date: "2022-11-24"
 title: Array.prototype.filter()
 description: "This page is a reference for the JavaScript Array method Array.prototype.filter()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeFilter.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

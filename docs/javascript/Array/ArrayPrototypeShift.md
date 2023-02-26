@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-shift"
 date: "2022-11-24"
 title: Array.prototype.shift()
 description: "This page is a reference for the JavaScript Array method Array.prototype.shift()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeShift.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

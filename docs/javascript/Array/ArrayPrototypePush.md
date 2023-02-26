@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-push"
 date: "2022-11-24"
 title: Array.prototype.push()
 description: "This page is a reference for the JavaScript Array method Array.prototype.push()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypePush.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

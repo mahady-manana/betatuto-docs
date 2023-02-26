@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-reverse"
 date: "2022-11-24"
 title: Array.prototype.reverse()
 description: "This page is a reference for the JavaScript Array method Array.prototype.reverse()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeReverse.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

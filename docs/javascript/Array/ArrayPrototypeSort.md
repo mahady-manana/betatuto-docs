@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-sort"
 date: "2022-11-24"
 title: Array.prototype.sort()
 description: "This page is a reference for the JavaScript Array method Array.prototype.sort()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeSort.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

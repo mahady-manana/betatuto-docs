@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-map"
 date: "2022-11-24"
 title: Array.prototype.map()
 description: "This page is a reference for the JavaScript Array method Array.prototype.map()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeMap.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

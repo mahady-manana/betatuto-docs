@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-join"
 date: "2022-11-24"
 title: Array.prototype.join()
 description: "This page is a reference for the JavaScript Array method Array.prototype.join()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeJoin.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

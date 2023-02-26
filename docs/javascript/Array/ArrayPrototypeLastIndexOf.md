@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-lastindexof"
 date: "2022-11-24"
 title: Array.prototype.lastIndexOf()
 description: "This page is a reference for the JavaScript Array method Array.prototype.lastIndexOf()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeLastIndexOf.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

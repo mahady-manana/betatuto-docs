@@ -4,7 +4,7 @@ slug: "/javascript/array/array-constructors"
 date: "2022-11-24"
 title: Array Constructors
 description: "This page is a reference for the JavaScript Array method Array Constructors."
-category: "Array"
+category: "Array Methods"
 order: 2
 githubPath: /javascript/Array/ArrayConstructors.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

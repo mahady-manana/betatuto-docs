@@ -5,7 +5,7 @@ date: "2022-11-24"
 updated: "2023-02-26"
 title: "Array.prototype.reduce()"
 description: "The `reduce()` method in JavaScript Array is used to apply a function to every element in an array and reduce the array to a single value."
-category: "Array"
+category: "Array Methods"
 order: 1003
 githubPath: /javascript/Array/Reduce.md
 contributor: [

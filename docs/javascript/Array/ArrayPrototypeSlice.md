@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-slice"
 date: "2022-11-24"
 title: Array.prototype.slice()
 description: "This page is a reference for the JavaScript Array method Array.prototype.slice()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeSlice.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

@@ -4,7 +4,7 @@ slug: "/javascript/array/array-prototype-indexof"
 date: "2022-11-24"
 title: Array.prototype.indexOf()
 description: "This page is a reference for the JavaScript Array method Array.prototype.indexOf()."
-category: "Array"
+category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeIndexOf.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]

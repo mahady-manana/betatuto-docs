@@ -13,5 +13,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.REPO_DISPATCH_TOKEN }}
-          repository: ${{ .secretsBUILD_REPO_NAME }}
+          repository: ${{ secrets.BUILD_REPO_NAME }}
           event-type: build

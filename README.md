@@ -10,13 +10,9 @@ clone this repo or fork to your repo
 git clone https://github.com/mahady-manana/betatuto-docs.git
 ```
 
+## TODO
 
-## Features
-
-JavaScript docs
-TypeScript docs
-Node.js docs
-React.js docs
+...
 
 ## Usage
 
@@ -28,15 +24,17 @@ Please read our [How To](HOW_TO.md) before contributing to this project.
 Please read our [Contribution Guidelines](CONTRUBITION_GUIDELINES.md) before contributing to this project.
 
 ## Code of Conduct
+
 We have adopted a [Code of Conduct](CODE_OF_CONDUCT.md) that we expect all contributors to adhere to. Please read and understand this code before contributing to our project.
 
 ## Bugs and Feature Requests
+
 If you find a bug or would like to request a new feature, please create a new issue.
 
 ## License
 
 This project is under MIT License
 
-
 ## Contact
+
 If you have any questions or comments about this project, please contact us at [insert contact information].

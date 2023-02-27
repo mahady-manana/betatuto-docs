@@ -7,7 +7,7 @@ description: In JavaScript, control flow refers to the order in which statements
 category: "Get Started"
 order: 6
 githubPath: /javascript/GetStarted/ControlFlow.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 

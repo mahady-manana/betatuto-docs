@@ -8,7 +8,7 @@ category: "Get Started"
 categoryOrder: 1
 order: 0
 githubPath: /javascript/GetStarted/Introduction.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 ## Overview

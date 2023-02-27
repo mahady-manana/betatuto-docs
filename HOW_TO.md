@@ -21,12 +21,14 @@ File name must be short, concise and explicity.
 Ex: for doc of Array map, reduce, sort, filter etc... should like this : 
 
 `docs/javascript/Array/Map.md`
+
 `docs/javascript/Array/Sort.md`
+
 `docs/javascript/Array/Map.md`
+
 `docs/javascript/Array/Filter.md`
 
 Filemane must by CamelCase.
-
 
 ## Frontmatter
 

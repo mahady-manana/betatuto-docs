@@ -7,7 +7,7 @@ description: "In JavaScript, there are several primitive data types and one non-
 category: "Get Started"
 order: 3
 githubPath: /javascript/GetStarted/DataTypes.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 In JavaScript, there are several primitive data types and one non-primitive data type.

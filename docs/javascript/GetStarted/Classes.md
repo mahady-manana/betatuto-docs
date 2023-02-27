@@ -7,7 +7,7 @@ description: Classes are a blueprint for creating objects in JavaScript that all
 category: "Get Started"
 order: 7
 githubPath: /javascript/GetStarted/Classes.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 

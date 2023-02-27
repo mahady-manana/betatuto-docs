@@ -7,7 +7,7 @@ description: Error handling is the process of detecting and resolving errors or 
 category: "Get Started"
 order: 8
 githubPath: /javascript/GetStarted/ErrorHandling.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 

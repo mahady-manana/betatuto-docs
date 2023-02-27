@@ -7,7 +7,7 @@ description: In programming languages, keywords are reserved words that are used
 category: "Get Started"
 order: 13
 githubPath: /javascript/GetStarted/Keywords.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 
@@ -16,97 +16,98 @@ contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 In programming languages, keywords are reserved words that are used to identify or define specific operations, commands, or actions. They have a predefined meaning in the language and cannot be used as variable names or identifiers. In JavaScript, some examples of keywords include:
 
 
-await
+`await`
 
-break
+`break`
 
-case
+`case`
 
-catch
+`catch`
 
-class
+`class`
 
-const
+`const`
 
-continue
+`continue`
 
-debugger
+`debugger`
 
-default
+`default`
 
-delete
+`delete`
 
-do
+`do`
 
-else
+`else`
 
-enum
+`enum`
 
-export
+`export`
 
-extends
+`extends`
 
-false
+`false`
 
-finally
+`finally`
 
-for
+`for`
 
-function
+`function`
 
-if
+`if`
 
-implements
+`implements`
 
-import
+`import`
 
-in
+`in`
 
-instanceof
+`instanceof`
 
-interface
+`interface`
 
-let
+`let`
 
-new
+`new`
 
-null
+`null`
 
-package
+`package`
 
-private
+`private`
 
-protected
+`protected`
 
-public
+`public`
 
-return
+`return`
 
-super
+`super`
 
-switch
+`switch`
 
-static
+`static`
 
-this
+`this`
 
-throw
+`throw`
 
-true
+`true`
 
-try
+`try`
 
-typeof
+`typeof`
 
-var
+`var`
 
-void
+`void`
 
-while
+`while`
 
-with
+`with`
 
-yield
+`yield`
+
 
 ## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/GetStarted/Keywords.md" target="_blank">Edit this page on Github</a>
 

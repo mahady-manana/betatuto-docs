@@ -7,7 +7,7 @@ description: A function is a block of code that performs a specific task or set 
 category: "Get Started"
 order: 7
 githubPath: /javascript/GetStarted/Function.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 

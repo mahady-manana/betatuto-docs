@@ -7,7 +7,7 @@ description: In JavaScript, an object is a collection of key-value pairs, where 
 category: "Get Started"
 order: 9
 githubPath: /javascript/GetStarted/Object.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 

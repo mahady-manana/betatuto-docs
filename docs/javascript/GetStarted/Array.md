@@ -7,7 +7,7 @@ description: An array is a data structure in JavaScript used to store a collecti
 category: "Get Started"
 order: 8
 githubPath: /javascript/GetStarted/Array.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 

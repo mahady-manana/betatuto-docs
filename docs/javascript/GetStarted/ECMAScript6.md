@@ -7,7 +7,7 @@ description: ES6 stands for ECMAScript 6, which is the sixth version of the ECMA
 category: "Get Started"
 order: 9
 githubPath: /javascript/GetStarted/ECMAScript6.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 

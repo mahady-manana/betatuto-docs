@@ -7,7 +7,7 @@ description: "Operators are symbols used in JavaScript to perform various operat
 category: "Get Started"
 order: 4
 githubPath: /javascript/GetStarted/Operators.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 **Operators** are symbols used in JavaScript to perform various operations, such as arithmetic, comparison, and logical operations. Here's a brief overview of some of the most common operators in JavaScript:

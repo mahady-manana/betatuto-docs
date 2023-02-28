@@ -34,21 +34,25 @@ const IndexPage: React.FC<PageProps> = ({ pageContext, data }) => {
               <Link to="/javascript">
                 JavaScript <Launch />
               </Link>
+              <p>JavaScript Docs are located in /docs/javascript</p>
             </div>
-            <div>
+            <div className="py-2">
               <Link to="/typescript">
                 TypeScript <Launch />
               </Link>
+              <p>TypeScript Docs are located in /docs/typescript</p>
             </div>
-            <div>
+            <div className="py-2">
               <Link to="/node">
                 Node.js <Launch />
               </Link>
+              <p>Node.js Docs are located in /docs/node</p>
             </div>
-            <div>
+            <div className="py-2">
               <Link to="/react">
                 React.js <Launch />
               </Link>
+              <p>React.js Docs are located in /docs/react</p>
             </div>
           </div>
         </ContainerIntro>

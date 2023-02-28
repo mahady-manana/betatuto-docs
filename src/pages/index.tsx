@@ -1,8 +1,9 @@
 import * as React from "react";
-import { HeadFC, PageProps } from "gatsby";
+import { HeadFC, Link, PageProps } from "gatsby";
 import { CommonLayout } from "../components/Layout/CommonLayout";
 import styled from "styled-components";
 import { Metadata } from "../components/Headers/Metadata";
+import Launch from "@mui/icons-material/Launch";
 
 const ContainerIntro = styled.div`
   min-height: calc(100vh - 60px);
@@ -17,7 +18,7 @@ const IndexPage: React.FC<PageProps> = ({ pageContext, data }) => {
           <div className="border-l-5 border-gray-200 homepage-section p-10">
             <div className="container-section m-auto">
               <h1 className="pb-5 text-white h1-title-lg">
-                <strong>Welocme To B-Devom Development Team</strong>
+                <strong>Welocme To B-Devcom Development Team</strong>
               </h1>
               <p className="text-white text-lg pb-5">
                 Feel free to share your expertise
@@ -29,13 +30,26 @@ const IndexPage: React.FC<PageProps> = ({ pageContext, data }) => {
             <h2 className="pb-4">
               <strong>You can open any files you want to edit or check.</strong>
             </h2>
-            <h3 className="pb-3 font-bold">
-              Betatuto Developers Community: B-Devcom
-            </h3>
-            <p className="pb-2">
-              What is <strong>B-Devcom</strong> ?
-            </p>
-            
+            <div>
+              <Link to="/javascript">
+                JavaScript <Launch />
+              </Link>
+            </div>
+            <div>
+              <Link to="/typescript">
+                TypeScript <Launch />
+              </Link>
+            </div>
+            <div>
+              <Link to="/node">
+                Node.js <Launch />
+              </Link>
+            </div>
+            <div>
+              <Link to="/react">
+                React.js <Launch />
+              </Link>
+            </div>
           </div>
         </ContainerIntro>
       </div>

@@ -93,5 +93,5 @@ The `sort()` method modifies the original array.
 
 
 
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeSort.md" target="_blank">Edit this page on Github</a>
+> <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeSort.md" target="_blank">Edit this page on Github</a>
 

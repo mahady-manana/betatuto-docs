@@ -1,20 +1,20 @@
 ---
 tag: "javascript"
-slug: "/javascript/array/unshift"
+slug: "/javascript/array/to-string"
 date: "2022-11-24"
-title: Array.prototype.unshift()
-description: "The `Array.prototype.unshift()` method adds one or more elements to the beginning of an array and returns the new length of the array."
+title: Array.prototype.toString()
+description: "The Array.prototype.toString() method adds one or more elements to the beginning of an array and returns the new length of the array."
 category: "Array Methods"
 order: 3
-githubPath: /javascript/Array/ArrayPrototypeUnshift.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+githubPath: /javascript/Array/ArrayPrototypeToString.md
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 
 
 ## Overview.
 
-The `Array.prototype.unshift()` method adds one or more elements to the beginning of an array and returns the new length of the array.
+The `Array.prototype.toString()` method adds one or more elements to the beginning of an array and returns the new length of the array.
 
 ## Syntax
 
@@ -50,5 +50,5 @@ numbers2.unshift(1, 2, 3);
 The `unshift()` method modifies the original array and returns the new length of the array.
 
 
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeUnshift.md" target="_blank">Edit this page on Github</a>
+> <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeToString.md" target="_blank">Edit this page on Github</a>
 

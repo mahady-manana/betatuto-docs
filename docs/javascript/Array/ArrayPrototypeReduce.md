@@ -1,24 +1,23 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/reduce"
-date: "2022-11-24"
-updated: "2023-02-26"
+date: "2023-02-28"
 title: "Array.prototype.reduce()"
-description: "The `reduce()` method in JavaScript Array is used to apply a function to every element in an array and reduce the array to a single value."
+description: "The Array.prototype.reduce() method in JavaScript Array is used to apply a function to every element in an array and reduce the array to a single value."
 category: "Array Methods"
 order: 1003
 githubPath: /javascript/Array/Reduce.md
 contributor: [
   {
     name: "Mahady Manana",
-    link: "https://www.betatuto.com/"
+    link: "https://twitter.com/MahadyManana"
   }
 ]
 ---
 
 ## Overview
 
-The `reduce()` method in JavaScript Array is used to apply a function to every element in an array and reduce the array to a single value. The `reduce()` method executes a provided function for each value of the array (from left-to-right) and reduces the array to a single value.
+The `Array.prototype.reduce()` method in JavaScript Array is used to apply a function to every element in an array and reduce the array to a single value. The `reduce()` method executes a provided function for each value of the array (from left-to-right) and reduces the array to a single value.
 
 ## Syntax
 

@@ -1,21 +1,19 @@
 ---
 tag: "javascript"
-slug: "/javascript/array/array-prototype-map"
+slug: "/javascript/array/map"
 date: "2022-11-24"
 title: Array.prototype.map()
-description: "This page is a reference for the JavaScript Array method Array.prototype.map()."
+description: "The `Array.prototype.map()` method creates a new array with the results of calling a provided function on every element in the calling array."
 category: "Array Methods"
 order: 3
 githubPath: /javascript/Array/ArrayPrototypeMap.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor:
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
-
-
-
 
 ## Overview.
 
-The `map()` method creates a new array with the results of calling a provided function on every element in the calling array.
+The `Array.prototype.map()` method creates a new array with the results of calling a provided function on every element in the calling array.
 
 ## Syntax
 
@@ -25,8 +23,11 @@ array.map(callback[, thisArg])
 
 ## Parameters
 
-callback (required): A function that is called for each element in the array. It should return the value to be included in the new array.
-thisArg (optional): An object to use as `this` when executing the callback function.
+- `callback`: A function that is called once for each element in the array. The `callback` function should return a new value for the element. It takes three arguments:
+  - `currentValue`: The current element being processed in the array.
+  - `index` (optional): The index of the current element being processed in the array.
+  - `array` (optional): The array that `map` was called upon.
+- `thisArg` (optional): An object to which the `this` keyword can refer inside the callback function. If this parameter is not specified, `undefined` is used as the default value.
 
 ## return value
 
@@ -40,10 +41,50 @@ const doubledNumbers = numbers.map((number) => number * 2);
 // doubledNumbers is [2, 4, 6]
 ```
 
+## Use Cases
+
+The `map()` method is useful when you need to transform each element in an array into a new value based on some logic.
+
+### Transforming data
+
+For example, if you have an array of objects and you need to extract a specific property from each object, you could use the `map()` method to create a new array containing only those properties.
+
+```javascript
+const users = [
+  { id: 1, name: "Alice", age: 25 },
+  { id: 2, name: "Bob", age: 30 },
+  { id: 3, name: "Charlie", age: 35 },
+];
+
+const userIds = users.map((user) => user.id);
+// userIds is [1, 2, 3]
+```
+
+### Rendering data
+
+Another use case for the `map()` method is when you need to render a list of items in a UI. You can use `map()` to transform an array of data into an array of UI components.
+
+```javascript
+const products = [
+  { id: 1, name: "Product 1", price: 10 },
+  { id: 2, name: "Product 2", price: 20 },
+  { id: 3, name: "Product 3", price: 30 },
+];
+
+const productItems = products.map((product) => {
+  return `
+    <div>
+      <h2>${product.name}</h2>
+      <p>${product.price}</p>
+    </div>
+  `;
+});
+
+// productItems is an array of HTML strings that can be rendered in the UI
+```
 
 ## Additionnal note
 
 The `map()` method does not modify the original array, but instead creates a new array with the results of calling the provided function on each element.
 
 ## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeMap.md" target="_blank">Edit this page on Github</a>
-

@@ -10,7 +10,7 @@ A comprehensive documentation platform for JavaScript, TypeScript, Node, and Rea
 git clone https://github.com/mahady-manana/betatuto-docs.git
 ```
 
-I have 2 options to start editing.
+You have 2 options to start editing.
 
 ### Using development server.
 
@@ -29,7 +29,11 @@ yarn install
 // start dev server
 
 yarn dev
+
 ```
+
+Then go to: [http://localhost:8000](http://localhost:8000)
+
 
 ### Using VS Code Extensions like: MArkdown All in One or any markdown extensionq on VS Code
 

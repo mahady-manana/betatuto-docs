@@ -6,42 +6,46 @@ A comprehensive documentation platform for JavaScript, TypeScript, Node, and Rea
 
 - Clone this repo
 
-```
-git clone https://github.com/mahady-manana/betatuto-docs.git
-```
+    ```batch
+    git clone https://github.com/mahady-manana/betatuto-docs.git
+    ```
 
-You have 2 options to start editing.
+- Now, you have 2 options to start editing:
+    1. Using development server, or
+    2. Using VS Code Extensions.
 
 ### Using development server.
 
 - Install Node.js ^18.0.0 on your local machine
 
-You can use tools like NVM to manage your node version.
+- You can use tools like NVM to manage your node version.
 
-```
-// go to newly create directory
-cd betatuto-docs
+- Then, change directory to the newly created one and execute below commands: 
 
-// install deps
+    ```batch
+    # go to newly created directory
+    cd betatuto-docs
 
-yarn install
+    # install deps
+    yarn install
 
-// start dev server
+    # start dev server
+    yarn dev
+    ```
 
-yarn dev
-
-```
-
-Then go to: [http://localhost:8000](http://localhost:8000)
+- Then go to: [http://localhost:8000](http://localhost:8000)
 
 
-### Using VS Code Extensions like: MArkdown All in One or any markdown extensionq on VS Code
+### Using VS Code extensions like
 
-- I can directly edit file and see preview without a development server
+You can directly edit file and see preview without a development server by using VS Code extensions like **Markdown All in One** or any markdown extension for that editor.
 
 ## TODO
 
-...
+- [x] Add JavaScript documentation
+- [ ] Add React.js documentation
+- [ ] Add Node.js documentation
+- [ ] Add TypeScript documentation
 
 ## Usage
 

@@ -1,6 +1,6 @@
 ---
 tag: "node"
-slug: "/node/express.js"
+slug: "/node/expressjs"
 date: "2023-02-28"
 title: "Express.js"
 description: "Learn how to use Express.js, a popular Node.js framework, to build web applications and APIs"

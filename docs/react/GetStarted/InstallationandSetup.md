@@ -3,7 +3,7 @@ tag: "react"
 slug: "/react/installation-and-setup"
 date: "2023-02-28"
 title: "Installation and Setup"
-description: "Learn how to install and setup React development environment."
+description: "To get started with React, you'll need to set up a development environment. Learn how to install and setup React development environment."
 category: "Get Started"
 order: 2
 githubPath: "/react/GetStarted/InstallationandSetup.md"

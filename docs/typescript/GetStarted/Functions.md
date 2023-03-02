@@ -13,6 +13,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 **Functions** are an important part of any programming language, and TypeScript provides several features to help you write more robust and maintainable functions. In this guide, we'll cover the basics of TypeScript functions, including function signatures, parameter types, return types, optional parameters, default parameters, rest parameters, and more.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Functions in TypeScript
 
 Here's the basic syntax for defining a function in TypeScript:

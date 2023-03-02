@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.map()
 description: "The `Array.prototype.map()` method creates a new array with the results of calling a provided function on every element in the calling array."
 category: "Array Methods"
-order: 3
+order: 8
 githubPath: /javascript/Array/ArrayPrototypeMap.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -15,13 +15,26 @@ contributor:
 
 The `Array.prototype.map()` method creates a new array with the results of calling a provided function on every element in the calling array.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Syntax
 
 ```javascript
 array.map(callback[, thisArg])
 ```
 
-## Parameters
+### Parameters
 
 - `callback`: A function that is called once for each element in the array. The `callback` function should return a new value for the element. It takes three arguments:
   - `currentValue`: The current element being processed in the array.
@@ -29,11 +42,11 @@ array.map(callback[, thisArg])
   - `array` (optional): The array that `map` was called upon.
 - `thisArg` (optional): An object to which the `this` keyword can refer inside the callback function. If this parameter is not specified, `undefined` is used as the default value.
 
-## return value
+### return value
 
 A new array containing the values returned by the callback function for each element in the original array.
 
-## Examples
+### Examples
 
 ```javascript
 const numbers = [1, 2, 3];
@@ -83,8 +96,7 @@ const productItems = products.map((product) => {
 // productItems is an array of HTML strings that can be rendered in the UI
 ```
 
-## Additionnal note
+## Notes
 
 The `map()` method does not modify the original array, but instead creates a new array with the results of calling the provided function on each element.
 
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeMap.md" target="_blank">Edit this page on Github</a>

@@ -15,6 +15,19 @@ contributor:
 
 **Functions** are a fundamental building block of JavaScript programming. They are a way to encapsulate reusable code and provide a way to modularize your application. Functions are blocks of code that perform a specific task when invoked.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
+
 ## Syntax and Declaration
 
 A function is declared using the `function` keyword, followed by the **function name**, and a set of parentheses `()` that may contain parameters. The function body is enclosed in curly braces `{}`.

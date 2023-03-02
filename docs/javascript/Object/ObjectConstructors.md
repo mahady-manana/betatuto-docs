@@ -6,7 +6,7 @@ title: Object Constructors
 description: "The new Object() constructor creates an object wrapper for the given value."
 category: "Advanced Javascript Object"
 categoryOrder: 3
-order: 14
+order: 1
 githubPath: /javascript/Object/ObjectConstructors.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -14,6 +14,18 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 ## Overview.
 
 The `new Object()` constructor creates an object wrapper for the given value. If the value is null or undefined, it will create an empty object and return it. This object contains a set of key-value pairs that can be used to store and retrieve data.
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
 
 ## Syntax
 

@@ -15,6 +15,19 @@ contributor:
 
 **Control flow** in JavaScript refers to the sequence in which statements are executed in a program, and how many times they are executed based on conditions. Control flow statements enable you to control the order of code execution in JavaScript.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 4
+class-name: "table-of-contents"
+```
+
 ## Conditional Statements
 
 **Conditional statements** allow you to execute certain code blocks only if certain conditions are met.

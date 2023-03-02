@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.forEach()
 description: "The Array.prototype.forEach() method is used to execute a provided function once for each array element."
 category: "Array Methods"
-order: 3
+order: 10
 githubPath: /javascript/Array/ArrayPrototypeForEach.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -13,6 +13,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 ## Overview.
 
 The `Array.prototype.forEach()` method is used to execute a provided function once for each array element. It is similar to a [`for`](/javascript/control-flow) loop, but with fewer lines of code and more expressive syntax.
+
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
 
 ## Syntax
 
@@ -22,7 +35,7 @@ array.forEach(callback(currentValue[, index[, array]])[, thisArg]);
 
 ```
 
-## Parameters
+### Parameters
 
 - `callback` (required): A function that is called for each element in the array. The function takes three parameters:
     - `currentValue`: The value of the current element being processed in the array.
@@ -30,11 +43,11 @@ array.forEach(callback(currentValue[, index[, array]])[, thisArg]);
     - `array` (optional): The array `forEach()` was called upon.
 - `thisArg` (optional): An object to use as `this` when executing the callback function.
 
-## return value
+### return value
 
 `undefined`
 
-## Examples
+### Examples
 
 ```javascript
 const numbers = [1, 2, 3];
@@ -117,7 +130,7 @@ numbers.forEach((number) => {
 console.log(evenNumbers);
 // Output: [2, 4, 6, 8]
 ```
-## Calculating statistics or aggregating data
+### Calculating statistics or aggregating data
 
 Suppose you have an array of objects representing sales data for a company, and you want to calculate the total revenue for each quarter of the year. You could use forEach() to iterate over the array and calculate the total revenue for each quarter:
 
@@ -144,7 +157,7 @@ console.log(`Average price: ${averagePrice}`);
 ```
 
 
-## Additionnal notes
+## Notes
 
 The `forEach()` method does not create a new array, but instead executes a function on each element of the existing array.
 

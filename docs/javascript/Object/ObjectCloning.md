@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Object Cloning
 description: Object cloning is the process of creating a new object that is a copy of an existing object in JavaScript.
 category: "Advanced Javascript Object"
-order: 22
+order: 10
 githubPath: /javascript/Object/ObjectCloning.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -16,6 +16,19 @@ contributor:
 **Object cloning** is the process of creating a new object that is a copy of an existing object in JavaScript. Cloning objects is a common task in programming, and it allows you to create new objects with the same properties and values as existing objects, which can be useful in many scenarios.
 
 There are several ways to clone objects in JavaScript, including using the spread operator, Object.assign(), and JSON.parse() and JSON.stringify(). Here are some examples:
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ### Using the spread operator:
 

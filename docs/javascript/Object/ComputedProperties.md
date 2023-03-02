@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Computed Properties
 description: Computed properties allow you to create object properties whose names are dynamically computed at runtime.
 category: "Advanced Javascript Object"
-order: 24
+order: 5
 githubPath: /javascript/Object/ComputedProperties.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -14,6 +14,19 @@ contributor:
 ## Overview.
 
 **Computed properties in JavaScript** allow you to define object properties dynamically using expressions as the property key. The property key is computed at runtime, based on the result of the expression. Computed properties are a powerful feature that can be used to create flexible and dynamic objects.
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ## Syntax
 
@@ -90,4 +103,3 @@ console.log(obj.foo.bar); // output: "value"
 - Computed properties can be used to create object properties with dynamic names or values that are computed at runtime.
 - Computed properties can be used to create complex objects with nested properties.
 
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Object/ComputedProperties.md}" target="_blank">Edit this page on Github</a>

@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Object Properties
 description: "Object Properties are the values associated with an object, and can be accessed using the dot notation or bracket notation"
 category: "Advanced Javascript Object"
-order: 17
+order: 4
 githubPath: /javascript/Object/Properties.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -14,6 +14,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 ## Overview.
 
 In JavaScript, objects are a fundamental part of the language and are used to store data in key-value pairs. An **object's properties** are the values associated with a key, and can be accessed using the dot notation or bracket notation `[]`.
+
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
 
 
 ## Syntax
@@ -25,11 +38,11 @@ objectName.propertyName;
 objectName["propertyName"];
 ```
 
-## Parameter
+### Parameter
 
 The parameter for accessing object properties is the name of the property that you want to access. It can be a string or a variable that holds a string value.
 
-## Examples
+### Examples
 
 Let's take a look at some examples of how to access object properties:
 

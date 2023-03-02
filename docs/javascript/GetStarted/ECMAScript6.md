@@ -25,6 +25,19 @@ Other new features introduced in ES6 include **template literals**, which enable
 
 Overall, ES6 greatly enhanced the JavaScript language, making it more expressive and efficient for developers.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
+
 ## Arrow functions:
 
 ```javascript

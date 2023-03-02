@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Getters and Setters
 description: "Getters and setters are methods that allow you to retrieve and set the values of object properties."
 category: "Advanced Javascript Object"
-order: 25
+order: 7
 githubPath: /javascript/Object/GettersAndSetters.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -14,6 +14,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 ## Overview.
 
 **Getters and setters** are special methods in object-oriented programming that are used to retrieve and set the values of an object's properties. They allow for controlled access to object properties and can be used to validate or modify data before it is stored or retrieved. Getters and setters are commonly used in languages like JavaScript, Java, and Python.
+
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
 
 
 ## Syntax
@@ -37,7 +50,7 @@ objectName.propertyName;
 objectName.propertyName = value;
 ```
 
-## Parameter
+### Parameter
 
 Getters and setters do not take parameters directly. Instead, they work with the properties of the object they are attached to. When a getter is called, it retrieves the value of the associated property, and when a setter is called, it sets the value of the associated property to the provided value.
 

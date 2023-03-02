@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Object Methods
 description: "Object methods are functions that are attached to objects in object-oriented programming."
 category: "Advanced Javascript Object"
-order: 18
+order: 8
 githubPath: /javascript/Object/Methods.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -13,6 +13,20 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 ## Overview.
 
 **Object methods** are functions that are attached to objects in object-oriented programming. They are used to define the behavior of an object and to perform actions on that object. Object methods can access and modify the properties of the object they are attached to. In JavaScript, object methods are defined using the function keyword, and they can be called using dot notation.
+
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ## Syntax
 
@@ -43,7 +57,7 @@ To call an object method, use the following syntax:
 objectName.methodName(parameters);
 ```
 
-## Parameter
+### Parameter
 
 Object methods can take any number of parameters, just like regular functions. The parameters are defined in the method's parameter list and are separated by commas. When calling an object method, you can pass in arguments for each parameter in the same order that they appear in the parameter list.
 

@@ -13,6 +13,19 @@ contributor:
 
 TypeScript provides a powerful type system that allows for static typing and type checking. However, it also includes a feature called "type inference", which can automatically infer the type of a variable or expression based on the context in which it is used. This allows developers to write code that is both safe and concise.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## What is Type Inference?
 
 Type inference is the process by which the TypeScript compiler deduces the type of a variable or expression based on its usage in the code. This means that you don't always have to explicitly declare the type of a variable, as the compiler can infer it for you.

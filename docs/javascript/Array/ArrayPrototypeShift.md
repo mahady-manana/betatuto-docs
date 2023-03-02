@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.shift()
 description: "The Array.prototype.shift() method removes the first element from an array and returns that removed element."
 category: "Array Methods"
-order: 3
+order: 4.1
 githubPath: /javascript/Array/ArrayPrototypeShift.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -14,21 +14,34 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 The **`Array.prototype.shift()`** method removes the first element from an array and returns that removed element. This method changes the length of the array.
 
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 ## Syntax
 
 ```javascript
 array.shift();
 ```
 
-## Parameters
+### Parameters
 
 No paramter.
 
-## return value
+### return value
 
 The return value of the `shift()` method is the element that was removed from the array. If the array is empty, `undefined` is returned.
 
-## Examples
+### Examples
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -78,9 +91,8 @@ buffer.push(4);
 console.log(buffer); // Output: [2, 3, 4]
 console.log(removedElement); // Output: 1
 ```
-## Additionnal note
+## Notes
 
 - The `shift()` method changes the original array, it doesn't return a new array.
 - If you only want to get the first element of an array without removing it, you can use the index notation, like this: `const firstElement = array[0]`;
 
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeShift.md" target="_blank">Edit this page on Github</a>

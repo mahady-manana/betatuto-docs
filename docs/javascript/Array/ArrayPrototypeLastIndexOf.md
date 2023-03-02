@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.lastIndexOf()
 description: "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present."
 category: "Array Methods"
-order: 3
+order: 14
 githubPath: /javascript/Array/ArrayPrototypeLastIndexOf.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -16,22 +16,34 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 The `Array.prototype.lastIndexOf()` method returns the last index at which a given element can be found in the array, or -1 if it is not present. The array is searched backwards, from the end to the beginning.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 ## Syntax
 
 ```javascript
 array.lastIndexOf(searchElement[, fromIndex])
 ```
 
-## Parameters
+### Parameters
 
 - `searchElement` (required): The element to search for in the array.
 - `fromIndex` (optional): The index at which to start searching backwards. By default, the search starts at the last index in the array.
 
-## return value
+### return value
 
 The index of the last occurrence of the specified element in the array, or `-1` if it is not found.
 
-## Examples
+### Examples
 
 ```javascript
 const arr = [1, 2, 3, 4, 5, 4, 3, 2, 1];
@@ -71,10 +83,7 @@ if (lastIndex !== -1) {
 console.log(arr); // Output: [1, 2, 3, 4, 5, 4, 2, 1]
 ```
 
-## Additionnal note
+## Notes
 
 The `lastIndexOf()` method returns the index of the last occurrence of the specified element in the array, and does not modify the array.
-
-
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeLastIndexOf.md" target="_blank">Edit this page on Github</a>
 

@@ -12,7 +12,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 In JavaScript, there are several primitive data types and one non-primitive data type.
 
-Here's a brief overview:
+
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 4
+class-name: "table-of-contents"
+```
 
 ## Primitive Data Types in JavaScript
 

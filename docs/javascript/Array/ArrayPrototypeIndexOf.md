@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.indexOf()
 description: "Array.prototype.indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present."
 category: "Array Methods"
-order: 3
+order: 13
 githubPath: /javascript/Array/ArrayPrototypeIndexOf.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -15,22 +15,35 @@ contributor:
 
 The `Array.prototype.indexOf()` method returns the first index at which a given element can be found in the array, or `-1` if it is not present.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Syntax
 
 ```javascript
 array.indexOf(searchElement[, fromIndex])
 ```
 
-## Parameters
+### Parameters
 
 - `searchElement` (required): The element to search for in the array.
 - `fromIndex` (optional): The index to start the search from. If not specified, the search starts from the beginning of the array.
 
-## return value
+### return value
 
 The index of the first occurrence of the specified element in the array, or `-1` if it is not found.
 
-## Examples
+### Examples
 
 ```javascript
 const numbers = [2, 5, 9, 2];
@@ -76,7 +89,7 @@ if (fruits.indexOf(elementToRemove) !== -1) {
 console.log(fruits); // Output: ['apple', 'banana', 'pear']
 ```
 
-## Additionnal note
+## Notes
 
 - `indexOf()` compares the searched element against each element of the array using strict equality (`===`).
 - If you want to find the last index of an element, you can use the [`Array.prototype.lastIndexOf()`](/javascript/array/last-index-of) method.

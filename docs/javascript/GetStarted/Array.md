@@ -17,6 +17,19 @@ In JavaScript, an **array** is a collection of values or elements that can be of
 
 Arrays in JavaScript are mutable, which means that you can modify, add or remove elements from them after they are created.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
+
 ### Array Constructor
 
 You can create an array in JavaScript using the [Array constructor](/javascript/array/constructors) function or using array literal notation.
@@ -97,5 +110,3 @@ JavaScript provides a number of built-in methods for working with arrays.
 - [`Array.prototype.toString()`](/javascript/array/to-string)
 
 - [`Array.prototype.unshift()`](/javascript/array/unshift)
-
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/GetStarted/Array.md" target="_blank">Edit this page on Github</a>

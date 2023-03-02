@@ -13,6 +13,19 @@ contributor:
 
 Get Started with Typescript Today.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Installation
 
 To start using **TypeScript**, you'll need to install it on your machine. You can do this using a package manager like npm or yarn.
@@ -56,7 +69,7 @@ let person = "World";
 sayHello(person);
 ```
 
-### Run your code
+## Run your code
 
 Open a command prompt or terminal window and navigate to the directory where you saved the hello.ts file.
 

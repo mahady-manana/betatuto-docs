@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.filter()
 description: "The Array.prototype.filter() method is used to create a new array with all elements that pass the test implemented by the provided function."
 category: "Array Methods"
-order: 3
+order: 9
 githubPath: /javascript/Array/ArrayPrototypeFilter.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -16,6 +16,19 @@ The `Array.prototype.filter()` method is used to create a new array with all ele
 
 > The `filter()` method does not modify the original array, but instead returns a new array that contains only the elements that pass the test.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 ## Syntax
 
 ```javascript
@@ -24,7 +37,7 @@ array.filter(callback(element[, index[, array]])[, thisArg])
 
 ```
 
-## Parameters
+### Parameters
 
 - `callback` (required): A function that tests each element of the array. It should return `true` to keep the element, or `false` otherwise. The function takes three parameters:
 
@@ -34,11 +47,11 @@ array.filter(callback(element[, index[, array]])[, thisArg])
 
 - `thisArg` (optional): An object to use as this when executing the callback function.
 
-## return value
+### return value
 
 A new array containing all elements that pass the test implemented by the provided callback function.
 
-## Examples
+### Examples
 
 **Filter even numbers**
 

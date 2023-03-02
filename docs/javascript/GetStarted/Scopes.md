@@ -15,13 +15,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 **Javascript scopes** refer to the visibility and accessibility of variables and functions within a program. Understanding scopes is crucial for writing efficient and maintainable code. 
 
-Javascript has different type of scope including:
+## Table of Contents
 
-- Global scope
-- Function scope
-- Local scope
-- Module scope.
-- Block Scope
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
+
 
 ## Global Scope
 

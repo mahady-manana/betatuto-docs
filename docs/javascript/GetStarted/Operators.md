@@ -12,6 +12,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 **Operators** are symbols used in JavaScript to perform various operations, such as arithmetic, comparison, and logical operations. Here's a brief overview of some of the most common operators in JavaScript:
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
+
 ## Arithmetic Operators in JavaScript
 
 **Arithmetic operators** are used to perform mathematical calculations.

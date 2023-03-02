@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.push()
 description: "The Array.prototype.push() method adds one or more elements to the end of an array and returns the new length of the array."
 category: "Array Methods"
-order: 3
+order: 2
 githubPath: /javascript/Array/ArrayPrototypePush.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -15,6 +15,18 @@ contributor:
 
 The `Array.prototype.push()` method adds one or more elements to the end of an array and returns the new length of the array.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 ## Syntax
 
 ```javascript
@@ -23,16 +35,16 @@ array.push(element1[, element2[, ...[, elementN]]])
 
 ```
 
-## Parameters
+### Parameters
 
 - `element1`: The first element to add to the array.
 - `elementN` (optional): Additional elements to add to the end of the array.
 
-## return value
+### return value
 
 The new length of the array after the elements have been added.
 
-## Examples
+### Examples
 
 ```javascript
 const animals = ["dog", "cat"];
@@ -92,11 +104,10 @@ console.log(sum(...numbers)); // 15
 
 > Note: The push() method modifies the original array and returns the new length of the array after the elements have been added.
 
-## Additionnal notes
+## Notes
 
 - The `push()` method modifies the original array.
 - You can pass multiple elements as arguments to `push()`.
 - The return value of `push()` is the new length of the array after the elements have been added.
 - The `push()` method can be used to append elements to the end of an array, similar to the [`concat()`](/javascript/array/concat) method. However, `push()` modifies the original array, while `concat()` returns a new array.
 
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypePush.md" target="_blank">Edit this page on Github</a>

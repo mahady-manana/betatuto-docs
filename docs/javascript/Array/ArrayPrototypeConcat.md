@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.concat()
 description: "The Array.prototype.concat() method is used to merge two or more arrays into a new array."
 category: "Array Methods"
-order: 3
+order: 4
 githubPath: /javascript/Array/ArrayPrototypeConcat.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -21,6 +21,19 @@ The `concat()` method can be chained together with other array methods, allowing
 
 > `concat(`) method does not modify the original array. Instead, it returns a new array that contains the concatenated elements.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 ## Syntax
 
 ```javascript
@@ -29,15 +42,15 @@ array.concat(array1, array2, ..., arrayN)
 
 ```
 
-## Parameters
+### Parameters
 
 - `array1, array2, ...arrayN`:  (required): The arrays to merge with the original array.
 
-## return value
+### return value
 
 A new array containing the elements of the original array and the concatenated arrays.
 
-## Examples
+### Examples
 
 ```javascript
 const array_a = [1, 2, 3];
@@ -61,7 +74,4 @@ const newArray2 = array6.concat(array7).reverse();
 // newArray2 is [6, 5, 4, 3, 2, 1]
 
 ```
-
-
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeConcat.md" target="_blank">Edit this page on Github</a>
 

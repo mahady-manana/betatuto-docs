@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Object Destructuring
 description: Object destructuring is a shorthand syntax for extracting properties from objects and binding them to variables.
 category: "Advanced Javascript Object"
-order: 21
+order: 9
 githubPath: /javascript/Object/ObjectDestructuring.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -14,6 +14,19 @@ contributor:
 ## Overview.
 
 **Object destructuring** in JavaScript is a way to extract values from an object and assign them to variables. It provides a convenient syntax for extracting values from nested objects and arrays as well.
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ## Syntax
 

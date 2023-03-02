@@ -15,6 +15,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 JavaScript is a high-level programming language that is widely used in web development, server-side programming, and other contexts. It was created in the mid-1990s by Brendan Eich at Netscape Communications Corporation. JavaScript has become one of the most widely used programming languages in the world
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
+
 ## JavaScript on the Browser
 
 JavaScript is most commonly used in web development to create dynamic, interactive web pages. In this context, JavaScript is run on the client-side, meaning that it is executed in the user's web browser rather than on a remote server.

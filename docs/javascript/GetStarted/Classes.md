@@ -17,6 +17,19 @@ contributor:
 
 A class is a blueprint for creating objects. It encapsulates data and behavior into a single unit. An instance of a class is an object that has the properties and methods defined by the class.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 4
+class-name: "table-of-contents"
+```
+
 ## Defining a Class
 
 You can define a class using the `class` keyword, followed by the name of the class. The class can have a constructor method and other methods defined inside it.

@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.join()
 description: "Array.prototype.join() method creates and returns a new string by concatenating all of the elements in an array, separated by a specified separator string."
 category: "Array Methods"
-order: 3
+order: 14
 githubPath: /javascript/Array/ArrayPrototypeJoin.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 ---
@@ -14,21 +14,34 @@ contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 
 The `Array.prototype.join()` method creates and returns a new string by concatenating all of the elements in an array, separated by a specified separator string.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Syntax
 
 ```javascript
 array.join(separator);
 ```
 
-## Parameters
+### Parameters
 
 - `separator` (optional): The string to use as a separator between the array elements. If omitted, the elements are separated with a comma.
 
-## return value
+### return value
 
 A string containing all of the array elements concatenated together, separated by the specified separator string.
 
-## Examples
+### Examples
 
 ```javascript
 const fruits = ["apple", "banana", "orange"];
@@ -88,9 +101,8 @@ const queryString = queryParams.map(param => `${param.key}=${param.value}`).join
 console.log(queryString); // Output: "page=2&sort=desc&filter=category:electronics"
 ```
 
-## Additionnal note
+## Notes
 
 - If any of the array elements is `undefined` or `null`, it will be converted to an empty string in the resulting string.
 - If the array is empty, `join()` method will return an empty string.
 
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeJoin.md" target="_blank">Edit this page on Github</a>

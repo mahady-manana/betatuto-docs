@@ -15,6 +15,7 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 An interface can define a set of properties and their types, as well as optional properties, readonly properties, and index signatures.
 
+
 Here's an example of an interface defining a simple Person type:
 
 ```ts

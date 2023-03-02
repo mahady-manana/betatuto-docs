@@ -21,6 +21,19 @@ Objects are commonly used to represent real-world entities such as people, produ
 
 In JavaScript, objects are mutable and dynamic, meaning their properties can be modified and new properties can be added or removed at runtime. They can also be passed as arguments to functions, returned from functions, and used as prototypes to create new objects.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
+
 ## Object Literals
 
 One way to create an object in JavaScript is to use **object literals**. An object literal is a comma-separated list of key-value pairs, enclosed in curly braces `{}`.

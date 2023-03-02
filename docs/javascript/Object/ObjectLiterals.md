@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Object Literals
 description: Object literals are a shorthand notation for creating objects in JavaScript.
 category: "Advanced Javascript Object"
-order: 15
+order: 2
 githubPath: /javascript/Object/ObjectLiterals.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -13,6 +13,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 ## Overview.
 
 In JavaScript, an **object literal** is a way to define an object using a list of **key-value pairs**, enclosed in curly braces `{}`. Object literals are commonly used to represent complex data structures or entities in JavaScript.
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ## Syntax
 
@@ -28,7 +41,7 @@ const obj = {
 
 Each key-value pair is separated by a comma. The `key` is always a string, and the `value` can be any valid JavaScript expression, including other objects, arrays, functions, and primitive values.
 
-## Parameter
+### Parameter
 
 Object literals take in a list of key-value pairs, where the key is always a string and the value can be any valid JavaScript expression.
 

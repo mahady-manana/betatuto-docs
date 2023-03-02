@@ -13,6 +13,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 TypeScript is a strongly-typed language that supports generics. **Generics** allow developers to create reusable code that can work with a variety of types, rather than a single specific type. This makes code more flexible and easier to maintain.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Generic Functions
 
 TypeScript supports the creation of generic functions, which can work with a variety of types. Here is an example of a generic identity function:

@@ -18,6 +18,19 @@ contributor:
 
 The additional type checking and other features provided by TypeScript can help catch errors earlier in the development process and make code more maintainable and scalable. TypeScript also supports many of the features of the latest versions of JavaScript, including classes, arrow functions, and async/await syntax.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## JavaScript and TypeScript
 
 As stated on the TypeScript official documentation :
@@ -112,7 +125,7 @@ console.log(product.name); // Output: Shoes
 
 TypeScript offers several advantages over traditional JavaScript development. One of the primary benefits of TypeScript is that it provides optional static typing, which helps catch errors at compile-time rather than runtime. Additionally, TypeScript supports class-based object-oriented programming, which can help developers build more robust and maintainable code.
 
-### Advantages of TypeScript:
+## Advantages of TypeScript:
 
 - **Type safety**: TypeScript allows developers to add optional static typing to their code, which helps catch errors before runtime. This can save time and prevent errors in large-scale projects.
 

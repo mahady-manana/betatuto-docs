@@ -13,6 +13,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 TypeScript is a superset of JavaScript, and as such, it supports all of the object-oriented programming (OOP) features that are available in JavaScript, including classes. **Classes in TypeScript** provide a way to define a blueprint for creating objects with shared state and behavior.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Defining a Class in TypeScript
 
 Here's an example of how to define a simple class in TypeScript:

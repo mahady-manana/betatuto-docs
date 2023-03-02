@@ -15,7 +15,19 @@ contributor:
 
 TypeScript provides several **basic types** that you can use to define variables, function parameters, and return values.
 
-Here are some of the most commonly used basic types in TypeScript
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ## `boolean`
 

@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Object Property Descriptors
 description: "Object property descriptors are a way to define and modify the behavior of object properties in JavaScript."
 category: "Advanced Javascript Object"
-order: 23
+order: 10
 githubPath: /javascript/Object/PropertyDescriptors.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -14,6 +14,19 @@ contributor:
 ## Overview.
 
 **Object property descriptors** are a way to define and modify the behavior of object properties in JavaScript. They allow you to specify various attributes for object properties, such as whether they can be modified, enumerated, or deleted, and whether they are writable, configurable, or enumerable.
+
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ## Syntax
 

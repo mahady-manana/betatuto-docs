@@ -13,6 +13,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 TypeScript is a popular language among developers, and as such, it is widely supported by tools and frameworks in the development ecosystem. In this section, we'll look at some of the most popular tools and frameworks that work well with TypeScript.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## TypeScript Compiler (tsc)
 
 The TypeScript compiler (tsc) is the core tool for compiling TypeScript code into JavaScript. It can be installed globally using npm, and can be run from the command line or as part of a build process. The tsc compiler can output code in different formats, including ECMAScript 3 through 2021, and can also emit declaration files (.d.ts) that describe the shape of the code for use with type checking and editor tooling.

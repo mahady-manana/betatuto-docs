@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.sort()
 description: "The `Array.prototype.sort()` method sorts the elements of an array in place and returns the sorted array."
 category: "Array Methods"
-order: 3
+order: 16
 githubPath: /javascript/Array/ArrayPrototypeSort.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
@@ -16,6 +16,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 The `Array.prototype.sort()` method sorts the elements of an array in place and returns the sorted array. The default sort order is built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Syntax
 
 ```javascript
@@ -23,7 +36,7 @@ array.sort([compareFunction])
 array.sort((a, b) => {/**/})
 ```
 
-## Parameters
+### Parameters
 
 - `compareFunction` (optional): A function that defines the sort order. If omitted, the array is sorted lexicographically (in dictionary order), with numbers sorted as strings.
 The `compareFunction` parameter is a function that takes two arguments and returns a value indicating whether the first argument should be sorted before or after the second argument. The function should return a negative value if the first argument should be sorted before the second, a positive value if the first argument should be sorted after the second, or zero if the two arguments are equal.
@@ -51,11 +64,11 @@ array.sort(function(a, b) {
 
 If the `compareFunction` parameter is not provided, the array elements are converted to strings and sorted in lexicographic order.
 
-## return value
+### return value
 
 The sorted array.
 
-## Examples
+### Examples
 
 ```javascript
 const fruits = ["apple", "orange", "banana", "kiwi"];
@@ -87,7 +100,7 @@ console.log(fruits); // ["date", "cherry", "banana", "apple"]
 ```
 
 
-## Additionnal note
+## Notes
 
 The `sort()` method modifies the original array.
 

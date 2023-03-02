@@ -12,6 +12,18 @@ contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 
 In JavaScript, variables are used to store values that can be referenced and manipulated by your code. There are three keywords used to declare variables: **`let`**, **`const`**, and **`var`**.
 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 2
+class-name: "table-of-contents"
+```
 
 ## `let`
 

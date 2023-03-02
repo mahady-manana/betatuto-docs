@@ -15,6 +15,19 @@ contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" 
 
 **Object inheritance** is a way to create new objects based on existing objects in JavaScript. It allows you to create new objects that inherit the properties and methods of existing objects, and to override and add new properties and methods.
 
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+
 ## Syntax
 
 The syntax for creating an object that inherits from another object in JavaScript is as follows:
@@ -23,7 +36,7 @@ The syntax for creating an object that inherits from another object in JavaScrip
 const childObject = Object.create(parentObject);
 ```
 `parentObject` is the object that you want to inherit from, and `childObject` is the new object that you're creating.
-## Parameter
+### Parameter
 
 The parameter for object inheritance is an existing object that you want to create a new object from.
 

@@ -5,7 +5,7 @@ date: "2022-11-24"
 title: Array.prototype.some()
 description: "The Array.prototype.some() method tests whether at least one element in the array passes the test implemented by the provided function."
 category: "Array Methods"
-order: 3
+order: 17
 githubPath: /javascript/Array/ArrayPrototypeSome.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -15,7 +15,19 @@ contributor:
 
 The `Array.prototype.some()` method tests whether at least one element in the array passes the test implemented by the provided function. It returns a boolean value indicating whether such an element exists or not.
 
-## Syntax
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
+### Syntax
 
 ```javascript
 array.some(callback[, thisArg])
@@ -24,7 +36,7 @@ array.some((element, index) => {/**/}, thisArg)
 array.some((element, index, array) => {/**/}, thisArg)
 ```
 
-## Parameters
+### Parameters
 
 - `callback` (required): A function that accepts up to three arguments. The some() method calls the callback function for each element in the array until the callback returns a truthy value. The callback is passed three arguments:
   - `element`: The current element being processed in the array.
@@ -32,11 +44,11 @@ array.some((element, index, array) => {/**/}, thisArg)
   - `array` (optional): The array `some()` was called upon.
 - `thisArg` (optional): Object to use as `this` when executing callback.
 
-## return value
+### return value
 
 A `boolean` value indicating whether at least one element in the array passes the test implemented by the provided function.
 
-## Examples
+### Examples
 
 ```javascript
 const array = [2, 5, 8, 1, 4];
@@ -89,8 +101,6 @@ const allFalsyValues = values.every(Boolean);
 // allFalsyValues is false
 ```
 
-## Additionnal note
+## Notes
 
 The `some()` method does not modify the original array and returns a `boolean` value indicating whether at least one element meets the test condition or not.
-
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/Array/ArrayPrototypeSome.md" target="_blank">Edit this page on Github</a>

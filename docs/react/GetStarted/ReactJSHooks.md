@@ -5,7 +5,7 @@ date: "2023-02-28"
 title: "React.js Hooks"
 description: "React Hooks are a set of functions that allow you to use state and other React features in functional components."
 category: "Get Started"
-order: 4
+order: 8
 githubPath: "/react/GetStarted/ReactJSHooks.md"
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

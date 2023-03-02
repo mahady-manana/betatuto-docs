@@ -381,3 +381,8 @@ table th {
     font-size: 40px;
   }
 }
+
+.table-of-contents ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

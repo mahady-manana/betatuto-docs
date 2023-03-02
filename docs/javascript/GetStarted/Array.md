@@ -3,7 +3,7 @@ tag: "javascript"
 slug: "/javascript/js-array"
 date: "2023-02-27"
 title: JavaScript Arrays
-description: An array is a data structure in JavaScript used to store a collection of elements of the same or different data types in a single variable."
+description: "An array is a data structure in JavaScript used to store a collection of elements of the same or different data types in a single variable."
 category: "Get Started"
 order: 8
 githubPath: /javascript/GetStarted/Array.md

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { graphql } from "gatsby";
+import { graphql, Script } from "gatsby";
 import { TutorialTemplate } from "../components/Templates/TutorialTemplate";
 import { Metadata } from "../components/Headers/Metadata";
 import LaunchIcon from "@mui/icons-material/Launch";
@@ -9,7 +9,9 @@ export default function BlogPostTemplate({
   data, // this prop will be injected by the GraphQL query below.
 }: any) {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark;
+  const { frontmatter, html, tableOfContents } = markdownRemark;
+  console.log({ tableOfContents });
+
   return (
     <TutorialTemplate frontmatter={frontmatter}>
       <div className="main-content-docs h-full-no-menu">
@@ -63,7 +65,7 @@ export const Head = ({
     <Metadata
       title={`${frontmatter.title} | B-Devcom`}
       description={frontmatter.description}
-    />
+    ></Metadata>
   );
 };
 
@@ -71,6 +73,7 @@ export const pageQuery = graphql`
   query PageQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
+      tableOfContents
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         slug

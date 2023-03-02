@@ -3,7 +3,7 @@ tag: "javascript"
 slug: "/javascript/function"
 date: "2023-02-27"
 title: JavaScript Function
-description: "A JavaScript Function is a block of code that performs a specific task or set of tasks."
+description: "A JavaScript Function is a block of code that performs a specific task or set of tasks. A way to encapsulate reusable code and provide a way to modularize your application."
 category: "Get Started"
 order: 7
 githubPath: /javascript/GetStarted/Function.md

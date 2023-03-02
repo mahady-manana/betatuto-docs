@@ -42,6 +42,7 @@ date: "2022-11-24"
 updated: "2023-02-26"
 title: "Array.prototype.reduce()" // title should be explicit and short
 category: "Array" // categories ex : Array, Object,.... Check existing category
+categoryOrder: // only for introduction of topics/concepts
 order: 1003  // order check existing order
 contributor: [
   {
@@ -51,6 +52,22 @@ contributor: [
 ]
 ---
 ```
+
+## Table of Contents
+
+Example
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 6
+class-name: "table-of-contents"
+```
+
 
 ^Note that all frontmatter will be discussed before Merge so don't worry about it.
 
@@ -66,6 +83,7 @@ contributor: [
   - Examples
   - Use cases
   - And more
+  - Notes
 
 Check content for the same category or topics to learn more
 

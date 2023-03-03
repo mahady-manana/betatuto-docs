@@ -7,7 +7,7 @@ description: "Learn how to write asynchronous code in Node.js using callbacks, p
 category: "Get Started"
 order: 5
 githubPath: "/node/GetStarted/AsynchronousProgramming.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Introduction

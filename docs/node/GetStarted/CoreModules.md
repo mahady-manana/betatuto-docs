@@ -17,6 +17,17 @@ Node.js comes with a set of built-in modules that provide developers with a wide
 
 In this guide, we will introduce you to the core modules of Node.js and provide some examples of how to use them.
 
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 ## Core Modules
 
 ### HTTP Module
@@ -86,5 +97,5 @@ console.log(`Total Memory: ${totalMemory} bytes`);
 
 This code retrieves the total amount of system memory in bytes and logs it to the console.
 
-### What we did in this section?
+## What we did in this section?
 Node.js comes with a set of powerful core modules that can be used to build a wide range of server-side applications. In this guide, we introduced you to some of the most commonly used core modules and provided examples of how to use them. By leveraging these core modules, you can streamline your development process and build high-performance Node.js applications.

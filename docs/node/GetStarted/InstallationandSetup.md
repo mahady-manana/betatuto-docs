@@ -17,6 +17,17 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allow
 
 In this guide, we will walk you through the process of installing and setting up Node.js on your local machine.
 
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
+
 
 ## Prerequisites
 

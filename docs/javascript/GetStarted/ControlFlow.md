@@ -6,6 +6,8 @@ title: JavaScript Control Flow
 description: In JavaScript, control flow refers to the order in which statements and expressions are executed within a program."
 category: "Get Started"
 order: 6
+prevPath: /javascript/scopes
+nextPath: /javascript/function
 githubPath: /javascript/GetStarted/ControlFlow.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

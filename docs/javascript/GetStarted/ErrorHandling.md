@@ -6,6 +6,8 @@ title: JavaScript Error Handling
 description: "Error handling is the process of detecting and resolving errors or exceptions that occur during the execution of a program.."
 category: "Get Started"
 order: 8
+prevPath: /javascript/js-array
+nextPath: /javascript/ecmascript-6
 githubPath: /javascript/GetStarted/ErrorHandling.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

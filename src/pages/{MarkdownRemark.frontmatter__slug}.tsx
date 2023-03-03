@@ -1,5 +1,5 @@
 import * as React from "react";
-import { graphql, Script } from "gatsby";
+import { graphql } from "gatsby";
 import { TutorialTemplate } from "../components/Templates/TutorialTemplate";
 import { Metadata } from "../components/Headers/Metadata";
 import LaunchIcon from "@mui/icons-material/Launch";
@@ -11,7 +11,7 @@ export default function BlogPostTemplate({
 }: any) {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
   const { frontmatter, html, tableOfContents } = markdownRemark;
-  console.log({ tableOfContents });
+  console.log({ frontmatter });
 
   return (
     <TutorialTemplate frontmatter={frontmatter}>
@@ -96,6 +96,8 @@ export const pageQuery = graphql`
         category
         description
         githubPath
+        nextPath
+        prevPath
         contributor {
           name
           link

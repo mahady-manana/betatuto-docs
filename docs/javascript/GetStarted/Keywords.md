@@ -6,6 +6,8 @@ title: JavaScript Keywords
 description: In programming languages, keywords are reserved words that are used to identify or define specific operations, commands, or actions.."
 category: "Get Started"
 order: 13
+prevPath: /javascript/js-object
+nextPath: /javascript/array
 githubPath: /javascript/GetStarted/Keywords.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

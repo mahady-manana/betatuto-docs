@@ -6,6 +6,8 @@ title: "JavaScript Operators"
 description: "Operators are symbols used in JavaScript to perform various operations, such as arithmetic, comparison, and logical operations."
 category: "Get Started"
 order: 4
+prevPath: /javascript/data-types
+nextPath: /javascript/scopes
 githubPath: /javascript/GetStarted/Operators.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

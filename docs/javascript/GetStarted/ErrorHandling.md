@@ -3,7 +3,7 @@ tag: "javascript"
 slug: "/javascript/error-handling"
 date: "2023-02-27"
 title: JavaScript Error Handling
-description: Error handling is the process of detecting and resolving errors or exceptions that occur during the execution of a program.."
+description: "Error handling is the process of detecting and resolving errors or exceptions that occur during the execution of a program.."
 category: "Get Started"
 order: 8
 githubPath: /javascript/GetStarted/ErrorHandling.md

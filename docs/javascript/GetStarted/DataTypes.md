@@ -6,6 +6,8 @@ title: "JavaScript Data Types"
 description: "In JavaScript, there are several primitive data types and one non-primitive data type: String, Number, Boolean, Null, Undefined, Symbol, Object."
 category: "Get Started"
 order: 3
+prevPath: /javascript/variables
+nextPath: /javascript/operators
 githubPath: /javascript/GetStarted/DataTypes.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

@@ -6,6 +6,8 @@ title: JavaScript Arrays
 description: "An array is a data structure in JavaScript used to store a collection of elements of the same or different data types in a single variable."
 category: "Get Started"
 order: 8
+prevPath: /javascript/classes
+nextPath: /javascript/error-handling
 githubPath: /javascript/GetStarted/Array.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

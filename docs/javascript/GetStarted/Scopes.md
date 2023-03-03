@@ -6,6 +6,8 @@ title: JavaScript Scopes
 description: Scope in JavaScript refers to the accessibility and visibility of variables within a program."
 category: "Get Started"
 order: 5
+prevPath: /javascript/operators
+nextPath: /javascript/control-flow
 githubPath: /javascript/GetStarted/Scopes.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

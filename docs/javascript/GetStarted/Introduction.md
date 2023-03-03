@@ -7,6 +7,7 @@ description: JavaScript is a high-level programming language that is widely used
 category: "Get Started"
 categoryOrder: 1
 order: 0
+nextPath: /javascript/variables
 githubPath: /javascript/GetStarted/Introduction.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

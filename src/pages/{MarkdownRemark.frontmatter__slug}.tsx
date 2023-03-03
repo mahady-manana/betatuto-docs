@@ -4,6 +4,7 @@ import { TutorialTemplate } from "../components/Templates/TutorialTemplate";
 import { Metadata } from "../components/Headers/Metadata";
 import LaunchIcon from "@mui/icons-material/Launch";
 import ReportCard from "../components/Templates/ReportCard";
+import { NavPrevNext } from "../components/Templates/NavPrevNext";
 
 export default function BlogPostTemplate({
   data, // this prop will be injected by the GraphQL query below.
@@ -16,8 +17,21 @@ export default function BlogPostTemplate({
     <TutorialTemplate frontmatter={frontmatter}>
       <div className="main-content-docs h-full-no-menu">
         <div className="p-10 doc-content pb-[100px]">
+          {frontmatter.nextPath || frontmatter.prevPath ? (
+            <NavPrevNext
+              prev={frontmatter.prevPath}
+              next={frontmatter.nextPath}
+            />
+          ) : null}
           <h1 className="font-bold">{frontmatter.title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }} />
+          {frontmatter.nextPath || frontmatter.prevPath ? (
+            <NavPrevNext
+              isBottom
+              prev={frontmatter.prevPath}
+              next={frontmatter.nextPath}
+            />
+          ) : null}
         </div>
         <div className="p-10 sticky h-no-menu top-[90px]">
           <div>

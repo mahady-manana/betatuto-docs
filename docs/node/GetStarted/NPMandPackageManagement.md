@@ -7,7 +7,7 @@ description: "Learn about NPM, the Node Package Manager, and how to use it to ma
 category: "Get Started"
 order: 4
 githubPath: "/node/GetStarted/NPMandPackageManagement.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview

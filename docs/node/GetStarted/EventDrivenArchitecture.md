@@ -7,7 +7,7 @@ description: "Learn about the event-driven architecture of Node.js and how it ca
 category: "Get Started"
 order: 6
 githubPath: "/node/GetStarted/EventDrivenArchitecture.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

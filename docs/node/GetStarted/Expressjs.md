@@ -7,7 +7,7 @@ description: "Learn how to use Express.js, a popular Node.js framework, to build
 category: "Get Started"
 order: 7
 githubPath: "/node/GetStarted/Expressjs.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

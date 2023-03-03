@@ -7,7 +7,7 @@ description: "Find additional resources for learning and using Node.js, includin
 category: "Get Started"
 order: 12
 githubPath: "/node/GetStarted/ResourcesandFurtherLearning.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

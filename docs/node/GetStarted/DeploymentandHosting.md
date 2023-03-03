@@ -7,10 +7,21 @@ description: "Learn how to deploy and host your Node.js applications on services
 category: "Get Started"
 order: 10
 githubPath: "/node/GetStarted/DeploymentandHosting.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 Deploying and hosting your Node.js application is an essential step in making it accessible to your users. In this documentation, you will learn how to deploy and host your Node.js application on services like Heroku, AWS, and Azure.
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it shows in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 3
+class-name: "table-of-contents"
+```
 
 ## Choosing a Hosting Provider
 

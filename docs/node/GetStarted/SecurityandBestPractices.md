@@ -7,7 +7,7 @@ description: "Learn about best practices for securing your Node.js applications 
 category: "Get Started"
 order: 9
 githubPath: "/node/GetStarted/SecurityandBestPractices.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

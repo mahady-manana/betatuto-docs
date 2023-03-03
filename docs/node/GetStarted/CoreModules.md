@@ -7,7 +7,7 @@ description: "Learn about the built-in modules that come with Node.js, such as f
 category: "Get Started"
 order: 3
 githubPath: "/node/GetStarted/CoreModules.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

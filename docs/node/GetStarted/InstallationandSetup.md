@@ -7,7 +7,7 @@ description: "Learn how to install and set up Node.js on your local machine"
 category: "Get Started"
 order: 2
 githubPath: "/node/GetStarted/InstallationandSetup.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

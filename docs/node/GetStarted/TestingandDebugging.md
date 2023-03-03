@@ -7,7 +7,7 @@ description: "Learn how to test and debug your Node.js applications using tools 
 category: "Get Started"
 order: 8
 githubPath: "/node/GetStarted/TestingandDebugging.md"
-contributor: [{ name: "Haja", link: "https://twitter.com/Haja261M" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

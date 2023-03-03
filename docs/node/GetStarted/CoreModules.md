@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/core-modules"
 date: "2023-03-03"
 title: "Core Modules"
-description: "Learn about the built-in modules that come with Node.js, such as fs, http, and path"
+description: "Node.js comes with a set of built-in modules that provide developers with a wide range of functionality for building server-side applications."
 category: "Get Started"
 order: 3
 githubPath: "/node/GetStarted/CoreModules.md"

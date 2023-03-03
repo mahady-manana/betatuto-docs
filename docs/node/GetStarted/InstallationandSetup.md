@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/installation-and-setup"
 date: "2023-03-03"
 title: "Installation and Setup"
-description: "Learn how to install and set up Node.js on your local machine"
+description: "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript on the server."
 category: "Get Started"
 order: 2
 githubPath: "/node/GetStarted/InstallationandSetup.md"

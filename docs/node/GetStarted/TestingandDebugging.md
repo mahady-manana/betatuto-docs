@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/testing-and-debugging"
 date: "2023-03-03"
 title: "Testing and Debugging"
-description: "Learn how to test and debug your Node.js applications using tools like Mocha, Chai, and VS Code"
+description: "Testing and debugging are crucial steps in developing any Node.js application."
 category: "Get Started"
 order: 8
 githubPath: "/node/GetStarted/TestingandDebugging.md"

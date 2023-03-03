@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/expressjs"
 date: "2023-03-03"
 title: "Express.js"
-description: "Learn how to use Express.js, a popular Node.js framework, to build web applications and APIs"
+description: "Express.js is a popular Node.js framework that simplifies building web applications and APIs."
 category: "Get Started"
 order: 7
 githubPath: "/node/GetStarted/Expressjs.md"

@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/npm-and-package-management"
 date: "2023-03-03"
 title: "NPM and Package Management"
-description: "Learn about NPM, the Node Package Manager, and how to use it to manage dependencies in your Node.js projects"
+description: "Node Package Manager (NPM) is a tool used for managing dependencies in Node.js applications."
 category: "Get Started"
 order: 4
 githubPath: "/node/GetStarted/NPMandPackageManagement.md"

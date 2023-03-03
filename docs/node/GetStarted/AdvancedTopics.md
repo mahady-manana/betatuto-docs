@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/advanced-topics"
 date: "2023-03-03"
 title: "Advanced Topics"
-description: "Learn about more advanced topics in Node.js, such as streams, child processes, and clustering"
+description: "Node.js offers several advanced features that allow you to build complex and high-performance applications."
 category: "Get Started"
 order: 11
 githubPath: "/node/GetStarted/AdvancedTopics.md"

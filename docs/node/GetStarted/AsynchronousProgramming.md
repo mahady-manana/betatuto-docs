@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/asynchronous-programming"
 date: "2023-03-03"
 title: "Asynchronous Programming"
-description: "Learn how to write asynchronous code in Node.js using callbacks, promises, and async/await"
+description: "Asynchronous programming is a fundamental concept in Node.js. Node.js allows you to write non-blocking code that runs asynchronously, which means that your code can continue to run without waiting for an I/O operation to complete."
 category: "Get Started"
 order: 5
 githubPath: "/node/GetStarted/AsynchronousProgramming.md"

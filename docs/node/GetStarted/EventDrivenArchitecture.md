@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/event-driven-architecture"
 date: "2023-03-03"
 title: "Event-Driven Architecture"
-description: "Learn about the event-driven architecture of Node.js and how it can be used to build scalable, high-performance applications"
+description: "Event-Driven Architecture is a popular paradigm for building scalable and efficient applications in Node.js"
 category: "Get Started"
 order: 6
 githubPath: "/node/GetStarted/EventDrivenArchitecture.md"

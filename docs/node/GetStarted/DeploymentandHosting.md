@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/deployment-and-hosting"
 date: "2023-03-03"
 title: "Deployment and Hosting"
-description: "Learn how to deploy and host your Node.js applications on services like Heroku, AWS, and Azure"
+description: "Deploying and hosting your Node.js application is an essential step in making it accessible to your users."
 category: "Get Started"
 order: 10
 githubPath: "/node/GetStarted/DeploymentandHosting.md"

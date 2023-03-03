@@ -3,7 +3,7 @@ tag: "node"
 slug: "/node/security-and-best-practices"
 date: "2023-03-03"
 title: "Security and Best Practices"
-description: "Learn about best practices for securing your Node.js applications and avoiding common security vulnerabilities"
+description: "Security is an important aspect of any application, and Node.js is no exception."
 category: "Get Started"
 order: 9
 githubPath: "/node/GetStarted/SecurityandBestPractices.md"

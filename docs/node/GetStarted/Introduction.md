@@ -22,3 +22,22 @@ Node.js is particularly useful for building server-side web applications and rea
 One of the most significant advantages of Node.js is its non-blocking I/O model. This model enables developers to handle a large number of simultaneous connections without requiring multiple threads or processes. As a result, Node.js is known for its high performance and scalability.
 
 In addition to web development, Node.js is also used for building command-line tools and other types of software that require a scripting language. Overall, Node.js is a popular choice among developers due to its versatility, performance, and large community support.
+
+Example of simple HHTP
+
+```js
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader("Content-Type", "text/plain");
+  res.end("Hello, World!");
+});
+
+server.listen(3000, () => {
+  console.log("Server running on http://localhost:3000/");
+});
+```
+
+
+Example of 

@@ -5,9 +5,9 @@ date: "2023-02-27"
 title: JavaScript Function
 description: "A JavaScript Function is a block of code that performs a specific task or set of tasks. A way to encapsulate reusable code and provide a way to modularize your application."
 category: "Get Started"
-order: 7.5
-prevPath: /javascript/function
-nextPath: /javascript/js-array
+order: 7
+prevPath: /javascript/control-flow
+nextPath: /javascript/classes
 githubPath: /javascript/GetStarted/Function.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

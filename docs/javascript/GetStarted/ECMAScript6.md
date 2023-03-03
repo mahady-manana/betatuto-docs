@@ -6,6 +6,8 @@ title: JavaScript ES6
 description: ES6 stands for ECMAScript 6, which is the sixth version of the ECMAScript standard. It's a major update to the JavaScript language."
 category: "Get Started"
 order: 9
+prevPath: /javascript/error-handling
+nextPath: /javascript/js-object
 githubPath: /javascript/GetStarted/ECMAScript6.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

@@ -3,9 +3,11 @@ tag: "javascript"
 slug: "/javascript/classes"
 date: "2023-02-27"
 title: JavaScript Classes
-description: Classes are a blueprint for creating objects in JavaScript that allow for defining properties and methods that the objects can have.."
+description: "Classes are a blueprint for creating objects in JavaScript that allow for defining properties and methods that the objects can have."
 category: "Get Started"
-order: 7
+order: 7.5
+prevPath: /javascript/function
+nextPath: /javascript/js-array
 githubPath: /javascript/GetStarted/Classes.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

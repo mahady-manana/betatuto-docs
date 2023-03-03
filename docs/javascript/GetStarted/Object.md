@@ -5,7 +5,9 @@ date: "2022-11-24"
 title: JavaScript Objects
 description: In JavaScript, an object is a collection of key-value pairs, where each key is a string (or symbol) and each value can be any type of data.."
 category: "Get Started"
-order: 9
+order: 9.5
+prevPath: /javascript/ecmascript-6
+nextPath: /javascript/javascript-keywords
 githubPath: /javascript/GetStarted/Object.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

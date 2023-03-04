@@ -7,12 +7,24 @@ description: "To get started with React, you'll need to set up a development env
 category: "Get Started"
 order: 2
 githubPath: "/react/GetStarted/InstallationandSetup.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor:
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
-To get started with React, you'll need to set up a development environment. 
+To get started with React, you'll need to set up a development environment.
 
-Follow the ste below to setup development environment. 
+## Table of Contents
+
+```toc
+# This code block will gets replaced with the TOC
+# Don't worry if it show in your editor preview
+exclude: Table of Contents
+tight: true
+ordered: false
+from-heading: 2
+to-heading: 6
+class-name: "table-of-contents"
+```
 
 ## Install Node.js and npm
 
@@ -20,7 +32,6 @@ Node.js is a JavaScript runtime that allows you to run JavaScript on the server-
 
 You can download the latest version of Node.js from the <a href="https://nodejs.org/" target="_blank">Node.js Official website</a>
 .
-
 
 ## Install a Code Editor
 
@@ -30,16 +41,19 @@ You can download and install any of these code editors from their respective web
 
 ## Create a New React Project
 
-Once you have Node.js and a code editor installed, you can create a new React project using the create-react-app tool. This tool sets up a basic React project with all the necessary dependencies and configurations.
+In order to create a React project, there are many tools available to get Started.
+
+### Using create-react-app
+
+You can create a new React project using the <a href="https://create-react-app.dev/" target="_blank" rel="nofollow noopener noreferrer">create-react-app</a> tool. This tool sets up a basic React project with all the necessary dependencies and configurations.
 
 To create a new project, open your command prompt or terminal and enter the following command:
-
 
 ```bash
 npx create-react-app my-app
 ```
 
-### Using TypeScript Template
+### Using TypeScript with create-react-app
 
 ```bash
 npx create-react-app my-app --template typescript
@@ -52,16 +66,23 @@ This command will create a new React project in a folder named "`my-app`". Once 
 ```bash
 cd my-app
 ```
+
 Run the Development Server
 To run the development server, enter the following command:
 
 ```bash
 npm start
 ```
+
 This command will start the development server and launch your project in the browser. You should see a basic React application with a header and some text.
+
+### Alternatives
+
+- <a href="https://www.gatsbyjs.com/" target="_blank" rel="nofollow noopener noreferrer">Gatsby</a>
+- <a href="https://vitejs.dev/" target="_blank" rel="nofollow noopener noreferrer">Vite</a>
+- <a href="https://parceljs.org" target="_blank" rel="nofollow noopener noreferrer">Parcel</a>
+- <a href="https://nextjs.org/" target="_blank" rel="nofollow noopener noreferrer">Next.js</a>
 
 Setting up a development environment for React can seem daunting at first, but it's actually a relatively simple process. By following the steps outlined in this documentation, you should be able to create a new React project and start developing your application in no time.
 
 Once you have your development environment set up, you can start learning more about React and its many features and benefits. Happy coding!
-
-

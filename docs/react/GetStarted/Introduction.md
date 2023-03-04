@@ -11,18 +11,9 @@ githubPath: /react/GetStarted/Introduction.md
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 ---
 
-
 ## Overview
 
 React is a popular JavaScript library for building user interfaces, which was first introduced by Facebook in 2011 and has since been maintained by a growing community of developers.
-
-Using a component-based architecture, React enables developers to create reusable UI elements that can be combined and composed into complex interfaces. Its virtual DOM efficiently updates the UI by only rendering the parts of the page that have changed, which can improve performance and reduce the amount of code needed.
-
-React is often used in conjunction with other front-end tools and frameworks, such as Redux for state management and Next.js for server-side rendering. It also has broad compatibility with various back-end technologies, such as Node.js and Ruby on Rails.
-
-One of the significant benefits of React is its extensive ecosystem of third-party libraries and tools, which can enhance its capabilities and make it easier to use. Additionally, React has excellent documentation and a supportive community that offers many learning resources, including tutorials, blogs, and videos.
-
-React has become a popular choice for building modern web applications due to its flexibility, reusability, and performance. Its component-based approach and efficient virtual DOM make it an ideal tool for building complex and dynamic user interfaces that can scale to meet the demands of modern web development.
 
 ## Table of Contents
 
@@ -45,6 +36,8 @@ In React, a component is a reusable piece of code that encapsulates the function
 
 ```jsx
 import React from "react";
+import ReactDOM from 'react-dom/client';
+
 
 function App() {
   return (
@@ -54,6 +47,18 @@ function App() {
     </div>
   );
 }
+
+// Here is how React render the element on the page
+
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 ```
 
 ### Create a Reusable Component
@@ -116,7 +121,6 @@ function Counter() {
 export default Counter;
 ```
 
-
 ## What is React Hooks
 
 [React Hooks](/react/reactjs-hooks) are functions that allow you to use state and other React features in functional components. The most commonly used hook is the useState hook, which allows you to add state to a functional component.
@@ -151,9 +155,11 @@ By using React Hooks, functional components can now have state, making them more
 
 React is a powerful and flexible library that has become widely popular among developers. It allows you to create reusable UI components and manage state efficiently, while also minimizing DOM manipulations for improved performance.
 
+## React Versions
 
-# Notes
+The current stable version of React is React 18.
 
+## Notes
 
 - Components: React is all about building reusable UI components. A component is a piece of code that represents a part of the UI, such as a button, a form, or a table.
 
@@ -162,4 +168,3 @@ React is a powerful and flexible library that has become widely popular among de
 - Props: Props are used to pass data from a parent component to a child component.
 
 - Virtual DOM: The virtual DOM is a lightweight representation of the actual DOM. React uses it to minimize the number of DOM manipulations and improve performance.
-

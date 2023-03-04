@@ -49,6 +49,7 @@ function App() {
 }
 
 // Here is how React render the element on the page
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

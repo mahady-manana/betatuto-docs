@@ -9,7 +9,6 @@ const ContainerIntro = styled.div`
   min-height: calc(100vh - 60px);
 `;
 const IndexPage: React.FC<PageProps> = ({ pageContext, data }) => {
-  console.log(data);
 
   return (
     <CommonLayout width="w-full">

@@ -5,7 +5,7 @@ date: "2023-03-06"
 title: JavaScript Dates and Times
 description: "JavaScript Date object is used to work with dates and times. It provides methods for creating, formatting, and manipulating dates and times."
 category: "Get Started"
-order: 13
+order: 14
 prevPath: /javascript/javascript-keywords
 nextPath: /javascript/array
 githubPath: /javascript/GetStarted/Dates.md

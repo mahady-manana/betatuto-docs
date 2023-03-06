@@ -3,11 +3,11 @@ tag: "javascript"
 slug: "/javascript/javascript-keywords"
 date: "2022-11-24"
 title: JavaScript Keywords
-description: In programming languages, keywords are reserved words that are used to identify or define specific operations, commands, or actions.."
+description: "In programming languages, keywords are reserved words that are used to identify or define specific operations, commands, or actions."
 category: "Get Started"
 order: 13
 prevPath: /javascript/js-object
-nextPath: /javascript/array
+nextPath: /javascript/dates
 githubPath: /javascript/GetStarted/Keywords.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

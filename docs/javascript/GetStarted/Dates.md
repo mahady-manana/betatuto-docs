@@ -7,7 +7,7 @@ description: "JavaScript Date object is used to work with dates and times. It pr
 category: "Get Started"
 order: 14
 prevPath: /javascript/javascript-keywords
-nextPath: /javascript/array
+nextPath: /javascript/sets
 githubPath: /javascript/GetStarted/Dates.md
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

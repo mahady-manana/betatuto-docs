@@ -14,7 +14,13 @@ breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 ---
 
-In JavaScript, **variables** are used to store values that can be referenced and manipulated by your code. There are three keywords used to declare variables: **`let`**, **`const`**, and **`var`**.
+## What are Variables ?
+
+In JavaScript, **variables** are used to store values that can be referenced and manipulated by your code. 
+
+They are containers for storing values. They are like a pizza box, the box is the variable and the pizza is the value stored in it.
+
+There are three keywords used to declare variables: **`let`**, **`const`**, and **`var`**.
 
 ```toc
 # This code block will gets replaced with the TOC

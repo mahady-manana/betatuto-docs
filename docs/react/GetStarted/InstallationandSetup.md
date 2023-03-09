@@ -1,14 +1,16 @@
 ---
 tag: "react"
 slug: "/react/installation-and-setup"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "Installation and Setup"
 description: "To get started with React, you'll need to set up a development environment. Learn how to install and setup React development environment."
 category: "Get Started"
 order: 2
+prevPath: /react/introduction
+nextPath: /react/reactjs-basics
 githubPath: "/react/GetStarted/InstallationandSetup.md"
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 To get started with React, you'll need to set up a development environment.

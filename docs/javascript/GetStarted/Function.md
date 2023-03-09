@@ -9,6 +9,7 @@ order: 7
 prevPath: /javascript/control-flow
 nextPath: /javascript/classes
 githubPath: /javascript/GetStarted/Function.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

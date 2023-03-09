@@ -1,13 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/shift"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.shift()
 description: "The Array.prototype.shift() method removes the first element from an array and returns that removed element."
 category: "Array Methods"
 order: 4.1
+prevPath: /javascript/array/push
+nextPath: /javascript/array/unshift
 githubPath: /javascript/Array/ArrayPrototypeShift.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

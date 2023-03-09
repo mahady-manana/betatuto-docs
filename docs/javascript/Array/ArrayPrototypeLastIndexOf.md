@@ -1,13 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/last-index-of"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.lastIndexOf()
 description: "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present."
 category: "Array Methods"
 order: 14
+prevPath: /javascript/array/index-of
+nextPath: /javascript/array/join
 githubPath: /javascript/Array/ArrayPrototypeLastIndexOf.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

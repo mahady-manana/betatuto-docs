@@ -1,14 +1,16 @@
 ---
 tag: "react"
 slug: "/react/reactjs-basics"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "React.js Basics concepts"
 description: "Learn the fundamentals of ReactJS, including components, props, state, and JSX syntax"
 category: "Get Started"
 order: 3
+prevPath: /react/installation-and-setup
+nextPath: /react/reactjs-events-handling
 githubPath: "/react/GetStarted/ReactJSBasics.md"
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 React is a JavaScript library for building user interfaces. It provides a declarative approach to creating UIs, where you describe how your UI should look and React takes care of updating the DOM when the state changes. In this documentation, we'll cover the basics of React.

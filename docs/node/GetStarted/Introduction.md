@@ -1,14 +1,15 @@
 ---
 tag: "node"
-slug: "/node/"
-date: "2022-11-24"
+slug: "/node/introduction"
+date: "2023-03-09"
 title: "Introduction To Node.js"
 description: Node.js is an open-source, cross-platform JavaScript runtime environment built on Chrome's V8 JavaScript engine
 category: "Get Started"
 categoryOrder: 1
 order: 0
+nextPath: /node/installation-and-setup
 githubPath: /node/GetStarted/Introduction.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview

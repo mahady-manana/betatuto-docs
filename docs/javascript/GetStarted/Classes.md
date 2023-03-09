@@ -9,6 +9,7 @@ order: 7.5
 prevPath: /javascript/function
 nextPath: /javascript/js-array
 githubPath: /javascript/GetStarted/Classes.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

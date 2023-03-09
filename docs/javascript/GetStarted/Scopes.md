@@ -9,6 +9,7 @@ order: 5
 prevPath: /javascript/operators
 nextPath: /javascript/control-flow
 githubPath: /javascript/GetStarted/Scopes.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

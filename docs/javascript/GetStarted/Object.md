@@ -9,6 +9,7 @@ order: 9.5
 prevPath: /javascript/ecmascript-6
 nextPath: /javascript/javascript-keywords
 githubPath: /javascript/GetStarted/Object.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

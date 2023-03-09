@@ -1,13 +1,15 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/concat"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.concat()
 description: "The Array.prototype.concat() method is used to merge two or more arrays into a new array."
 category: "Array Methods"
-order: 4
+order: 3
+prevPath: /javascript/array/constructors
+nextPath: /javascript/array/push
 githubPath: /javascript/Array/ArrayPrototypeConcat.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

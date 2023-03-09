@@ -1,14 +1,17 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/index-of"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.indexOf()
 description: "Array.prototype.indexOf() method returns the first index at which a given element can be found in the array, or -1 if it is not present."
 category: "Array Methods"
 order: 13
+prevPath: /javascript/array/for-each
+nextPath: /javascript/array/last-index-of
 githubPath: /javascript/Array/ArrayPrototypeIndexOf.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

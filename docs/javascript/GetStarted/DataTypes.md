@@ -9,6 +9,7 @@ order: 3
 prevPath: /javascript/variables
 nextPath: /javascript/operators
 githubPath: /javascript/GetStarted/DataTypes.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

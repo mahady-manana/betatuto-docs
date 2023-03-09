@@ -1,13 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/to-string"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.toString()
 description: "The Array.prototype.toString() method adds one or more elements to the beginning of an array and returns the new length of the array."
 category: "Array Methods"
 order: 15
+prevPath: /javascript/array/join
+nextPath: /javascript/array/sort
 githubPath: /javascript/Array/ArrayPrototypeToString.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

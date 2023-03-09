@@ -1,14 +1,17 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/push"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.push()
 description: "The Array.prototype.push() method adds one or more elements to the end of an array and returns the new length of the array."
 category: "Array Methods"
-order: 2
+order: 4
+prevPath: /javascript/array/concat
+nextPath: /javascript/array/shift
 githubPath: /javascript/Array/ArrayPrototypePush.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

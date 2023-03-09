@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/object/object-constructors"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Object Constructors
 description: "The new Object() constructor creates an object wrapper for the given value."
 category: "Advanced Javascript Object"
 categoryOrder: 3
 order: 1
+prevPath: /javascript/array/findlast
+nextPath: /javascript/object/object-literals
 githubPath: /javascript/Object/ObjectConstructors.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

@@ -1,13 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/join"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.join()
 description: "Array.prototype.join() method creates and returns a new string by concatenating all of the elements in an array, separated by a specified separator string."
 category: "Array Methods"
 order: 14
+prevPath: /javascript/array/last-index-of
+nextPath: /javascript/array/to-string
 githubPath: /javascript/Array/ArrayPrototypeJoin.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
+contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

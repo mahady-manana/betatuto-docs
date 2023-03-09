@@ -1,13 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/sort"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.sort()
 description: "The `Array.prototype.sort()` method sorts the elements of an array in place and returns the sorted array."
 category: "Array Methods"
 order: 16
+prevPath: /javascript/array/to-string
+nextPath: /javascript/array/some
 githubPath: /javascript/Array/ArrayPrototypeSort.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/object/object-cloning"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Object Cloning
 description: Object cloning is the process of creating a new object that is a copy of an existing object in JavaScript.
 category: "Advanced Javascript Object"
-order: 10
+order: 11
+prevPath: /javascript/object/property-descriptors
+nextPath: /javascript/object/inheritance
 githubPath: /javascript/Object/ObjectCloning.md
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

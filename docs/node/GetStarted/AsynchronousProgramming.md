@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/asynchronous-programming"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Asynchronous Programming"
 description: "Asynchronous programming is a fundamental concept in Node.js. Node.js allows you to write non-blocking code that runs asynchronously, which means that your code can continue to run without waiting for an I/O operation to complete."
 category: "Get Started"
 order: 5
+prevPath: /node/npm-and-package-management
+nextPath: /node/event-driven-architecture
 githubPath: "/node/GetStarted/AsynchronousProgramming.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

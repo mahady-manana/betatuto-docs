@@ -1,13 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/slice"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.slice()
 description: "The Array.prototype.slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end."
 category: "Array Methods"
 order: 7
+prevPath: /javascript/array/pop
+nextPath: /javascript/array/map
 githubPath: /javascript/Array/ArrayPrototypeSlice.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

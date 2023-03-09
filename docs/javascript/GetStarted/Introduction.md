@@ -1,6 +1,6 @@
 ---
 tag: "javascript"
-slug: "/javascript/"
+slug: "/javascript/introduction"
 date: "2022-11-24"
 title: "Introduction To Javascript"
 description: JavaScript is a high-level programming language that is widely used in web development, server-side programming, and other contexts.
@@ -8,8 +8,11 @@ category: "Get Started"
 categoryOrder: 1
 order: 0
 nextPath: /javascript/variables
+prevPath: /javascript
 githubPath: /javascript/GetStarted/Introduction.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
+contributor:
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
 ## Overview
@@ -92,18 +95,19 @@ fs.readFile("/path/to/file.txt", "utf8", (err, data) => {
   console.log(data);
 });
 ```
+
 ### Example 4: Simple HTTP Server with Node.js
 
 ```javascript
 // Node.js code
-const http = require('http');
+const http = require("http");
 
 const server = http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello, Node.js!');
+  res.writeHead(200, { "Content-Type": "text/plain" });
+  res.end("Hello, Node.js!");
 });
 
 server.listen(8080, () => {
-  console.log('Server running at http://localhost:8080/');
+  console.log("Server running at http://localhost:8080/");
 });
 ```

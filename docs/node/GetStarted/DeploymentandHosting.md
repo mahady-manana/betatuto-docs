@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/deployment-and-hosting"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Deployment and Hosting"
 description: "Deploying and hosting your Node.js application is an essential step in making it accessible to your users."
 category: "Get Started"
 order: 10
+prevPath: /node/security-and-best-practices
+nextPath: /node/advanced-topics
 githubPath: "/node/GetStarted/DeploymentandHosting.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/installation-and-setup"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Installation and Setup"
 description: "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript on the server."
 category: "Get Started"
 order: 2
+prevPath: /node/introduction
+nextPath: /node/core-modules
 githubPath: "/node/GetStarted/InstallationandSetup.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

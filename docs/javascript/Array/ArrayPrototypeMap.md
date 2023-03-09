@@ -1,14 +1,17 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/map"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.map()
 description: "The `Array.prototype.map()` method creates a new array with the results of calling a provided function on every element in the calling array."
 category: "Array Methods"
 order: 8
+prevPath: /javascript/array/slice
+nextPath: /javascript/array/filter
 githubPath: /javascript/Array/ArrayPrototypeMap.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

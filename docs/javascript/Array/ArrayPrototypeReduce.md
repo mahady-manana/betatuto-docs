@@ -1,17 +1,22 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/reduce"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "Array.prototype.reduce()"
 description: "The Array.prototype.reduce() method in JavaScript Array is used to apply a function to every element in an array and reduce the array to a single value."
 category: "Array Methods"
 order: 19
+prevPath: /javascript/array/reverse
+nextPath: /javascript/array/find
 githubPath: /javascript/Array/Reduce.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [
   {
     name: "Mahady Manana",
     link: "https://twitter.com/MahadyManana"
+  }, {
+    name: "Haja",
+    link: "https://twitter.com/Haja261M"
   }
 ]
 ---

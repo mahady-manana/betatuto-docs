@@ -1,15 +1,17 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/find"
-date: "2023-03-08"
+date: "2023-03-09"
 title: Array.prototype.find()
 description: "Array.prototype.find() is a built-in method in JavaScript, which is used to search an array and return the first element that satisfies the provided testing function."
 category: "Array Methods"
 order: 20
+prevPath: /javascript/array/reduce
+nextPath: /javascript/array/findlast
 githubPath: /javascript/Array/ArrayPrototypeFind.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 **`Array.prototype.find()`** is a built-in method in JavaScript, which is used to search an array and return the first element that satisfies the provided testing function. This method returns `undefined` if the element is not found in the array.

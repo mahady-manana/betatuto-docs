@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/filter"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.filter()
 description: "The Array.prototype.filter() method is used to create a new array with all elements that pass the test implemented by the provided function."
 category: "Array Methods"
 order: 9
+prevPath: /javascript/array/map
+nextPath: /javascript/array/for-each
 githubPath: /javascript/Array/ArrayPrototypeFilter.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

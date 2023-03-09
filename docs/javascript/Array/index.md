@@ -1,18 +1,23 @@
 ---
 tag: "javascript"
 slug: "/javascript/array"
-date: "2022-11-24"
+date: "2023-03-09"
 title: "Array Methods"
 category: "Array Methods"
 description: "An array is a collection of elements or values, it is used to store and manipulate data in a program."
 categoryOrder: 2
 order: 1
+prevPath: /javascript/maps
+nextPath: /javascript/array/constructors
 githubPath: /javascript/Array/index.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [
   {
     name: "Mahady Manana",
     link: "https://twitter.com/MahadyManana"
+  }, {
+    name: "Haja",
+    link: "https://twitter.com/Haja261M"
   }
 ]
 ---

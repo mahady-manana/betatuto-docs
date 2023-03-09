@@ -1,15 +1,17 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/some"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.some()
 description: "The Array.prototype.some() method tests whether at least one element in the array passes the test implemented by the provided function."
 category: "Array Methods"
 order: 17
+prevPath: /javascript/array/sort
+nextPath: /javascript/array/reverse
 githubPath: /javascript/Array/ArrayPrototypeSome.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

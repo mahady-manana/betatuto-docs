@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/for-each"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.forEach()
 description: "The Array.prototype.forEach() method is used to execute a provided function once for each array element."
 category: "Array Methods"
 order: 10
+prevPath: /javascript/array/filter
+nextPath: /javascript/array/index-of
 githubPath: /javascript/Array/ArrayPrototypeForEach.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

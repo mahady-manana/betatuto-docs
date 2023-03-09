@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/splice"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.splice()
 description: "This page is a reference for the JavaScript Array method Array.prototype.splice()."
 category: "Array Methods"
 order: 6
+prevPath: /javascript/array/unshift
+nextPath: /javascript/array/pop
 githubPath: /javascript/Array/ArrayPrototypeSplice.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

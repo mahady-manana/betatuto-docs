@@ -7,6 +7,7 @@ description: "The Array.prototype.filter() method is used to create a new array 
 category: "Array Methods"
 order: 9
 githubPath: /javascript/Array/ArrayPrototypeFilter.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

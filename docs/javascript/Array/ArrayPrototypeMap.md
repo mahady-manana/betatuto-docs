@@ -7,6 +7,7 @@ description: "The `Array.prototype.map()` method creates a new array with the re
 category: "Array Methods"
 order: 8
 githubPath: /javascript/Array/ArrayPrototypeMap.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

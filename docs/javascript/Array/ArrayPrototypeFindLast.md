@@ -7,6 +7,7 @@ description: "Array.prototype.find() is a built-in method in JavaScript, which i
 category: "Array Methods"
 order: 21
 githubPath: /javascript/Array/ArrayPrototypeFindLast.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

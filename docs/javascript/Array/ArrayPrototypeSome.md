@@ -7,6 +7,7 @@ description: "The Array.prototype.some() method tests whether at least one eleme
 category: "Array Methods"
 order: 17
 githubPath: /javascript/Array/ArrayPrototypeSome.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

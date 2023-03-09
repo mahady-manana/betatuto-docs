@@ -7,6 +7,7 @@ description: "The `Array.prototype.unshift()` method adds one or more elements t
 category: "Array Methods"
 order: 5
 githubPath: /javascript/Array/ArrayPrototypeUnshift.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 ---
 

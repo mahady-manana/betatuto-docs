@@ -7,6 +7,7 @@ description: "The Array.prototype.shift() method removes the first element from 
 category: "Array Methods"
 order: 4.1
 githubPath: /javascript/Array/ArrayPrototypeShift.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

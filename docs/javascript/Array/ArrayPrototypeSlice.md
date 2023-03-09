@@ -7,6 +7,7 @@ description: "The Array.prototype.slice() method returns a shallow copy of a por
 category: "Array Methods"
 order: 7
 githubPath: /javascript/Array/ArrayPrototypeSlice.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

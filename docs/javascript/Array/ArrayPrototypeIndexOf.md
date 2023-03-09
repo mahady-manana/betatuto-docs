@@ -7,6 +7,7 @@ description: "Array.prototype.indexOf() method returns the first index at which 
 category: "Array Methods"
 order: 13
 githubPath: /javascript/Array/ArrayPrototypeIndexOf.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

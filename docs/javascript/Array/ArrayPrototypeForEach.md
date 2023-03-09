@@ -7,6 +7,7 @@ description: "The Array.prototype.forEach() method is used to execute a provided
 category: "Array Methods"
 order: 10
 githubPath: /javascript/Array/ArrayPrototypeForEach.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

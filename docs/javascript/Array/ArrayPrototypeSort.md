@@ -7,6 +7,7 @@ description: "The `Array.prototype.sort()` method sorts the elements of an array
 category: "Array Methods"
 order: 16
 githubPath: /javascript/Array/ArrayPrototypeSort.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

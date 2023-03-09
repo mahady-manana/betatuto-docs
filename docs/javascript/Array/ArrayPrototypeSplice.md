@@ -7,6 +7,7 @@ description: "This page is a reference for the JavaScript Array method Array.pro
 category: "Array Methods"
 order: 6
 githubPath: /javascript/Array/ArrayPrototypeSplice.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

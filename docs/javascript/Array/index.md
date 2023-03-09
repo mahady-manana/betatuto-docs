@@ -8,6 +8,7 @@ description: "An array is a collection of elements or values, it is used to stor
 categoryOrder: 2
 order: 1
 githubPath: /javascript/Array/index.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [
   {
     name: "Mahady Manana",

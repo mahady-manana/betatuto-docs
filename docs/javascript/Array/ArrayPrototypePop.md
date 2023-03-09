@@ -7,6 +7,7 @@ description: "The Array.prototype.pop() method removes the last element from an 
 category: "Array Methods"
 order: 6
 githubPath: /javascript/Array/ArrayPrototypePop.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

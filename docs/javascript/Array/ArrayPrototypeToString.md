@@ -7,6 +7,7 @@ description: "The Array.prototype.toString() method adds one or more elements to
 category: "Array Methods"
 order: 15
 githubPath: /javascript/Array/ArrayPrototypeToString.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

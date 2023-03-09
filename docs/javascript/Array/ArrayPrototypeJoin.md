@@ -7,6 +7,7 @@ description: "Array.prototype.join() method creates and returns a new string by 
 category: "Array Methods"
 order: 14
 githubPath: /javascript/Array/ArrayPrototypeJoin.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 ---
 

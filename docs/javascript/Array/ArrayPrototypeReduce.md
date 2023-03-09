@@ -7,6 +7,7 @@ description: "The Array.prototype.reduce() method in JavaScript Array is used to
 category: "Array Methods"
 order: 19
 githubPath: /javascript/Array/Reduce.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [
   {
     name: "Mahady Manana",

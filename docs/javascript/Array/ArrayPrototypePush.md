@@ -7,6 +7,7 @@ description: "The Array.prototype.push() method adds one or more elements to the
 category: "Array Methods"
 order: 2
 githubPath: /javascript/Array/ArrayPrototypePush.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

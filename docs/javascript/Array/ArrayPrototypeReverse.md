@@ -7,6 +7,7 @@ description: "TThe reverse() method reverses the order of the elements in an arr
 category: "Array Methods"
 order: 18
 githubPath: /javascript/Array/ArrayPrototypeReverse.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

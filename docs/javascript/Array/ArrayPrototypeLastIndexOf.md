@@ -7,6 +7,7 @@ description: "The lastIndexOf() method returns the last index at which a given e
 category: "Array Methods"
 order: 14
 githubPath: /javascript/Array/ArrayPrototypeLastIndexOf.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 

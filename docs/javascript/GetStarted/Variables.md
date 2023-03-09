@@ -7,7 +7,7 @@ title: "JS Variables: let, const and var"
 description: "Variables are used to store values that can be referenced and manipulated by your code. JavaScript Variables can be declared with let, const, and var."
 category: "Get Started"
 order: 2
-prevPath: /javascript/
+prevPath: /javascript/introduction
 nextPath: /javascript/data-types
 githubPath: /javascript/GetStarted/Variables.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]

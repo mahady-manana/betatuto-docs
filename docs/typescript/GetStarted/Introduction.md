@@ -1,7 +1,7 @@
 ---
 tag: "typescript"
-slug: "/typescript/"
-date: "2022-11-24"
+slug: "/typescript/introduction"
+date: "2023-03-09"
 title: "Introduction To TypeScript"
 description: TypeScript is a statically-typed superset of the JavaScript. TypeScript provides a more robust and scalable way to build large-scale applications.
 category: "Get Started"

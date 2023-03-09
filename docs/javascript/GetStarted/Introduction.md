@@ -1,6 +1,6 @@
 ---
 tag: "javascript"
-slug: "/javascript/"
+slug: "/javascript/introduction"
 date: "2022-11-24"
 title: "Introduction To Javascript"
 description: JavaScript is a high-level programming language that is widely used in web development, server-side programming, and other contexts.
@@ -8,6 +8,7 @@ category: "Get Started"
 categoryOrder: 1
 order: 0
 nextPath: /javascript/variables
+prevPath: /javascript
 githubPath: /javascript/GetStarted/Introduction.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:

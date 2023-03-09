@@ -7,8 +7,9 @@ description: "React.js is a JavaScript library for building user interfaces."
 category: "Get Started"
 categoryOrder: 1
 order: 0
+nextPath: /react/installation-and-setup
 githubPath: /react/GetStarted/Introduction.md
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview

@@ -1,14 +1,15 @@
 ---
 tag: "react"
 slug: "/react/reactjs-hooks"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "React.js Hooks"
 description: "React Hooks are a set of functions that allow you to use state and other React features in functional components."
 category: "Get Started"
 order: 8
+prevPath: /react/reactjs-forms-and-validation
 githubPath: "/react/GetStarted/ReactJSHooks.md"
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 React Hooks are a set of functions that allow you to use state and other React features in functional components.

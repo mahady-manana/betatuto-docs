@@ -1,14 +1,16 @@
 ---
 tag: "react"
 slug: "/react/reactjs-events-handling"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "React.js Events Handling"
 description: "React events handling refers to the process of capturing and responding to user interactions within a React application."
 category: "Get Started"
-order: 3
+order: 4
+prevPath: /react/reactjs-basics
+nextPath: /react/reactjs-forms-and-validation
 githubPath: "/react/GetStarted/ReactJSEventsHandling.md"
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 React events handling refers to the process of capturing and responding to user interactions within a React application. These interactions can be anything from a mouse click or key press to a form submission or touch event. In this guide, we'll cover how to handle events in React, including the different types of events, how to bind event handlers, and how to pass data from events to our components.

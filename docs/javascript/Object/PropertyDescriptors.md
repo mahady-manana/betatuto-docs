@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/object/property-descriptors"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Object Property Descriptors
 description: "Object property descriptors are a way to define and modify the behavior of object properties in JavaScript."
 category: "Advanced Javascript Object"
 order: 10
+prevPath: /javascript/object/object-destructuring
+nextPath: /javascript/object/object-cloning
 githubPath: /javascript/Object/PropertyDescriptors.md
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

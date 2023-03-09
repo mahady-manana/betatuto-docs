@@ -1,13 +1,15 @@
 ---
 tag: "javascript"
 slug: "/javascript/object/object-literals"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Object Literals
 description: Object literals are a shorthand notation for creating objects in JavaScript.
 category: "Advanced Javascript Object"
 order: 2
+prevPath: /javascript/object/object-constructors
+nextPath: /javascript/object/properties
 githubPath: /javascript/Object/ObjectLiterals.md
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

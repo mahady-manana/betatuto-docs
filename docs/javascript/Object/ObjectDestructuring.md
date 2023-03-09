@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/object/object-destructuring"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Object Destructuring
 description: Object destructuring is a shorthand syntax for extracting properties from objects and binding them to variables.
 category: "Advanced Javascript Object"
 order: 9
+prevPath: /javascript/object/methods
+nextPath: /javascript/object/property-descriptors
 githubPath: /javascript/Object/ObjectDestructuring.md
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

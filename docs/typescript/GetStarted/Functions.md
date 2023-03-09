@@ -1,13 +1,15 @@
 ---
 tag: "typescript"
 slug: "/typescript/functions"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Functions"
 description: "Learn how to write functions in TypeScript, including function signatures, overloading, and generics"
 category: "Get Started"
 order: 5
+prevPath: /typescript/interfaces
+nextPath: /typescript/type-inference
 githubPath: "/typescript/GetStarted/Functions.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

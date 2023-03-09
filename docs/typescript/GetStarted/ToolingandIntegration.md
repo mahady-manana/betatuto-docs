@@ -1,13 +1,14 @@
 ---
 tag: "typescript"
 slug: "/typescript/tooling-and-integration"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Tooling and Integration"
 description: "Learn about the tools and integrations available for TypeScript, including editors, linters, and build tools"
 category: "Get Started"
 order: 12
+prevPath: /typescript/namespaces
 githubPath: "/typescript/GetStarted/ToolingandIntegration.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

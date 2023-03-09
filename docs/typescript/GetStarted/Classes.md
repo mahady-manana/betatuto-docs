@@ -1,13 +1,15 @@
 ---
 tag: "typescript"
 slug: "/typescript/classes"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Classes"
 description: "Classes in TypeScript provide a way to define a blueprint for creating objects with shared state and behavior."
 category: "Get Started"
 order: 8
+prevPath: /typescript/generics
+nextPath: /typescript/namespaces
 githubPath: "/typescript/GetStarted/Classes.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

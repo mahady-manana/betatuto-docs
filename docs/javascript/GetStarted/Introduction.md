@@ -2,7 +2,7 @@
 tag: "javascript"
 slug: "/javascript/introduction"
 date: "2022-11-24"
-updateAt: "2023-03-09"
+updatedAt: "2023-03-09"
 title: "Introduction To Javascript"
 description: JavaScript is a high-level programming language that is widely used in web development, server-side programming, and other contexts.
 category: "Get Started"

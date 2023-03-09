@@ -11,7 +11,7 @@ export const NavPrevNext: FC<NavPrevNextProps> = ({ prev, next, isBottom }) => {
     "flex items-center  px-2 py-1 font-bold border-1 border-primary text-white rounded-md";
   return (
     <div className={isBottom ? "mt-10 pt-5" : ""}>
-      <div className="nav-next-prev flex items-center justify-between pb-4">
+      <div className="nav-next-prev flex items-center justify-between py-4">
         {prev ? (
           <Link to={prev} className={className}>
             <span className="pr-2">

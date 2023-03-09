@@ -1,11 +1,10 @@
-import ArrowRightIcon from "@mui/icons-material/ArrowRight";
-import React, { FC, useCallback, useEffect, useRef, useState } from "react";
-import { Link, useStaticQuery, graphql } from "gatsby";
+import React, { FC, useRef, useState } from "react";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import ItemNav from "./ItemNav";
 import { Menu } from "@mui/icons-material";
 
 interface NavbarProps {
-  tag: string;
+  frontmatter: any;
 }
 
 interface IPages {
@@ -14,6 +13,7 @@ interface IPages {
   slug: string;
   category: string;
   categoryOrder?: number;
+  tables?: string;
 }
 
 const NavigationBar: FC<NavbarProps> = (props) => {
@@ -46,7 +46,7 @@ const NavigationBar: FC<NavbarProps> = (props) => {
       order: node.frontmatter.order,
       categoryOrder: node.frontmatter.categoryOrder,
     }))
-    .filter(({ tag }: any) => tag === props.tag)
+    .filter(({ tag }: any) => tag === props.frontmatter.tag)
     .sort((a: any, b: any) => {
       if (a.categoryOrder !== undefined && b.categoryOrder !== undefined) {
         return a.categoryOrder - b.categoryOrder;
@@ -69,48 +69,54 @@ const NavigationBar: FC<NavbarProps> = (props) => {
 
   const myRef = useRef<HTMLDivElement>(null);
 
-  const onActive = useCallback((position: number) => {
-    if (myRef.current) {
-      myRef.current.scrollTop = position - myRef.current.offsetHeight / 2;
-      setShowMenu(false);
-    }
-  }, []);
-
   return (
     <>
       <nav
-        className={`md:sticky top-[96px] ${
+        className={`nav-bar top-[60px] ${
           showMenu ? "show-menu" : "hide-menu"
         } h-full-no-menu bg-gray-100`}
       >
-        <div className="text-right container-menu-toggle">
-          <span onClick={() => setShowMenu((prev) => !prev)} className="p-2 block border-2 border-primary w-[50px] bg-secondary">
+        <div className="text-right container-menu-toggle bg-gray-800 fixed top-[60px] h-[50px] flex items-center justify-between w-full px-2 bg-white z-50">
+          <span
+            onClick={() => setShowMenu((prev) => !prev)}
+            className="p-2 block border-2 border-primary w-[50px] bg-secondary"
+          >
             <Menu />
           </span>
         </div>
         <div
-          className={`h-full overflow-y-scroll pb-20 ${
+          className={`nav-bar-content md:w-[400px] overflow-y-scroll scrollbar-thin pb-20 ${
             showMenu ? "" : "hidden-menu-mobile"
           }`}
           ref={myRef}
         >
           {topCategorys.map((key, index) => {
             return (
-              <div key={`${key.category}-${index} `} className="pb-4">
-                <p className="py-2 mb-4 px-5 bg-gray-800 text-white">
+              <div key={`${key.category}-${index} `} className="pb-[2px]">
+                <Link
+                  to={key.slug}
+                  className="py-2 px-5 flex justify-between items-center accordion-title cursor-pointer border-b-2"
+                >
                   <strong>{key.category}</strong>
-                </p>
-                {pages
-                  .filter((page) => page.category === key.category)
-                  .sort(sortPage)
-                  .map(({ title, slug }: any) => (
-                    <ItemNav
-                      slug={slug}
-                      title={title}
-                      key={slug}
-                      onActive={onActive}
-                    />
-                  ))}
+                  <span className="text-[20px]">+</span>
+                </Link>
+                {props.frontmatter.category === key.category ? (
+                  <div className="accordion-content border-b-2">
+                    {pages
+                      .filter((page) => page.category === key.category)
+                      .sort(sortPage)
+                      .map(({ title, slug }: any) => {
+                        return (
+                          <ItemNav
+                            slug={slug}
+                            title={title}
+                            key={slug}
+                            containerRef={myRef}
+                          />
+                        );
+                      })}
+                  </div>
+                ) : null}
               </div>
             );
           })}

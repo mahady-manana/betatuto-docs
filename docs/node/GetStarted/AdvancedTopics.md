@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/advanced-topics"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Advanced Topics"
 description: "Node.js offers several advanced features that allow you to build complex and high-performance applications."
 category: "Get Started"
 order: 11
+prevPath: /node/deployment-and-hosting
+nextPath: /node/resources-and-further-learning
 githubPath: "/node/GetStarted/AdvancedTopics.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

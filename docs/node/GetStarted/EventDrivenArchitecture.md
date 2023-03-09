@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/event-driven-architecture"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Event-Driven Architecture"
 description: "Event-Driven Architecture is a popular paradigm for building scalable and efficient applications in Node.js"
 category: "Get Started"
 order: 6
+prevPath: /node/asynchronous-programming
+nextPath: /node/expressjs
 githubPath: "/node/GetStarted/EventDrivenArchitecture.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

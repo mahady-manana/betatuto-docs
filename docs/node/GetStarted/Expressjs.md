@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/expressjs"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Express.js"
 description: "Express.js is a popular Node.js framework that simplifies building web applications and APIs."
 category: "Get Started"
 order: 7
+prevPath: /node/event-driven-architecture
+nextPath: /node/testing-and-debugging
 githubPath: "/node/GetStarted/Expressjs.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

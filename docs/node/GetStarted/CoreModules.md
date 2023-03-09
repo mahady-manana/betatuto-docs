@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/core-modules"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Core Modules"
 description: "Node.js comes with a set of built-in modules that provide developers with a wide range of functionality for building server-side applications."
 category: "Get Started"
 order: 3
+prevPath: /node/installation-and-setup
+nextPath: /node/npm-and-package-management
 githubPath: "/node/GetStarted/CoreModules.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

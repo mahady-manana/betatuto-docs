@@ -439,17 +439,6 @@ table th {
   padding-left: 40px;
   color: #5e5e5e;
 }
-.table-of-contents ul, .tables-navs ul {
-  padding-left: 40px;
-  list-style-type: square;
-}
-.table-of-contents ul ul, .tables-navs ul ul {
-  list-style-type: circle;
-  padding-left: 20px;
-}
-.table-of-contents ul a {
-  text-decoration: none;
-}
 .no-underline a {
   text-decoration: none;
 }

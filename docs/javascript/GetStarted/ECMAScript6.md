@@ -9,6 +9,7 @@ order: 9
 prevPath: /javascript/error-handling
 nextPath: /javascript/js-object
 githubPath: /javascript/GetStarted/ECMAScript6.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

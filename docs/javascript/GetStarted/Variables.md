@@ -10,6 +10,7 @@ order: 2
 prevPath: /javascript/
 nextPath: /javascript/data-types
 githubPath: /javascript/GetStarted/Variables.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
 ---
 

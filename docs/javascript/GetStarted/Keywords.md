@@ -9,6 +9,7 @@ order: 13
 prevPath: /javascript/js-object
 nextPath: /javascript/dates
 githubPath: /javascript/GetStarted/Keywords.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---
 
@@ -109,7 +110,4 @@ In programming languages, keywords are reserved words that are used to identify 
 `with`
 
 `yield`
-
-
-## <a href="https://github.com/mahady-manana/betatuto-docs/tree/main/docs/javascript/GetStarted/Keywords.md" target="_blank">Edit this page on Github</a>
 

@@ -9,6 +9,7 @@ order: 6
 prevPath: /javascript/scopes
 nextPath: /javascript/function
 githubPath: /javascript/GetStarted/ControlFlow.md
+breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
 ---

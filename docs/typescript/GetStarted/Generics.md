@@ -1,13 +1,15 @@
 ---
 tag: "typescript"
 slug: "/typescript/generics"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Generics"
 description: "Generics allow developers to create reusable code that can work with a variety of types, rather than a single specific type."
 category: "Get Started"
 order: 7
+prevPath: /typescript/type-inference
+nextPath: /typescript/classes
 githubPath: "/typescript/GetStarted/Generics.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

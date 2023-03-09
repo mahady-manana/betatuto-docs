@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/unshift"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.unshift()
 description: "The `Array.prototype.unshift()` method adds one or more elements to the beginning of an array and returns the new length of the array."
 category: "Array Methods"
 order: 5
+prevPath: /javascript/array/shift
+nextPath: /javascript/array/splice
 githubPath: /javascript/Array/ArrayPrototypeUnshift.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
-contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }]
+contributor: [{ name: "Mahady Manana", link: "https://www.betatuto.com/" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

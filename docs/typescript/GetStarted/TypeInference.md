@@ -1,14 +1,16 @@
 ---
 tag: "typescript"
 slug: "/typescript/type-inference"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Type Inference"
 description: "Type inference is the process by which the TypeScript compiler deduces the type of a variable or expression based on its usage in the code."
 category: "Get Started"
 order: 6
+prevPath: /typescript/functions
+nextPath: /typescript/generics
 githubPath: "/typescript/GetStarted/TypeInference.md"
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 TypeScript provides a powerful type system that allows for static typing and type checking. However, it also includes a feature called "type inference", which can automatically infer the type of a variable or expression based on the context in which it is used. This allows developers to write code that is both safe and concise.

@@ -1,13 +1,15 @@
 ---
 tag: "typescript"
 slug: "/typescript/interfaces"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Interfaces"
 description: "Learn how to use interfaces in TypeScript to define object shapes and contract requirements"
 category: "Get Started"
 order: 4
+prevPath: /typescript/basic-types
+nextPath: /typescript/functions
 githubPath: "/typescript/GetStarted/Interfaces.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

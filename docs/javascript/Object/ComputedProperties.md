@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/object/computed-properties"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Computed Properties
 description: Computed properties allow you to create object properties whose names are dynamically computed at runtime.
 category: "Advanced Javascript Object"
 order: 5
+prevPath: /javascript/object/properties
+nextPath: /javascript/object/getters-and-setters
 githubPath: /javascript/Object/ComputedProperties.md
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

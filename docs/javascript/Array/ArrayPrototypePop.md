@@ -1,15 +1,17 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/pop"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.pop()
 description: "The Array.prototype.pop() method removes the last element from an array and returns that element."
 category: "Array Methods"
 order: 6
+prevPath: /javascript/array/splice
+nextPath: /javascript/array/slice
 githubPath: /javascript/Array/ArrayPrototypePop.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

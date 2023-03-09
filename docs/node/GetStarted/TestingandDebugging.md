@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/testing-and-debugging"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Testing and Debugging"
 description: "Testing and debugging are crucial steps in developing any Node.js application."
 category: "Get Started"
 order: 8
+prevPath: /node/expressjs
+nextPath: /node/security-and-best-practices
 githubPath: "/node/GetStarted/TestingandDebugging.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

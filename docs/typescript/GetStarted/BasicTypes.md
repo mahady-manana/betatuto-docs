@@ -1,14 +1,16 @@
 ---
 tag: "typescript"
 slug: "/typescript/basic-types"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Basic Types"
 description: "Learn about the basic data types in TypeScript"
 category: "Get Started"
 order: 3
+prevPath: /typescript/getting-started
+nextPath: /typescript/interfaces
 githubPath: "/typescript/GetStarted/BasicTypes.md"
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview

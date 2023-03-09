@@ -1,14 +1,16 @@
 ---
 tag: "typescript"
 slug: "/typescript/getting-started"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Getting Started"
 description: "Learn how to set up TypeScript in your project and start writing TypeScript code"
 category: "Get Started"
 order: 2
+prevPath: /typescript/introduction
+nextPath: /typescript/basic-types
 githubPath: "/typescript/GetStarted/GettingStarted.md"
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 Get Started with Typescript Today.

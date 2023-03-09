@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/reverse"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array.prototype.reverse()
 description: "TThe reverse() method reverses the order of the elements in an array in place."
 category: "Array Methods"
 order: 18
+prevPath: /javascript/array/some
+nextPath: /javascript/array/reduce
 githubPath: /javascript/Array/ArrayPrototypeReverse.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview.

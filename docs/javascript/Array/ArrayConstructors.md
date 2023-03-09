@@ -1,14 +1,16 @@
 ---
 tag: "javascript"
 slug: "/javascript/array/constructors"
-date: "2022-11-24"
+date: "2023-03-09"
 title: Array Constructors
 description: "Array() constructor is used to create a new array object. The Array() constructor can be used in two ways."
 category: "Array Methods"
 order: 2
+prevPath: /javascript/array
+nextPath: /javascript/array/concat
 githubPath: /javascript/Array/ArrayConstructors.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" },{ label: "Array Methods", slug: "/javascript/array" }]
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 

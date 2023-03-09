@@ -7,9 +7,10 @@ description: TypeScript is a statically-typed superset of the JavaScript. TypeSc
 category: "Get Started"
 categoryOrder: 1
 order: 0
+nextPath: /typescript/getting-started
 githubPath: /typescript/GetStarted/Introduction.md
 contributor:
-  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+  [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 ## Overview

@@ -1,11 +1,13 @@
 ---
 tag: "node"
 slug: "/node/security-and-best-practices"
-date: "2023-03-03"
+date: "2023-03-09"
 title: "Security and Best Practices"
 description: "Security is an important aspect of any application, and Node.js is no exception."
 category: "Get Started"
 order: 9
+prevPath: /node/testing-and-debugging
+nextPath: /node/deployment-and-hosting
 githubPath: "/node/GetStarted/SecurityandBestPractices.md"
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

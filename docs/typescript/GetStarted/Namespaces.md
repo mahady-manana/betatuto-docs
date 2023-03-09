@@ -1,13 +1,15 @@
 ---
 tag: "typescript"
 slug: "/typescript/namespaces"
-date: "2023-02-28"
+date: "2023-03-09"
 title: "TypeScript Namespaces"
 description: "Namespaces provide a way to organize code into logical groups and avoid naming collisions."
 category: "Get Started"
 order: 10
+prevPath: /typescript/classes
+nextPath: /typescript/tooling-and-integration
 githubPath: "/typescript/GetStarted/Namespaces.md"
-contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
+contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
 In TypeScript, **namespaces** provide a way to organize code into logical groups and avoid naming collisions. A namespace is simply a container for variables, functions, classes, and other types of code.

@@ -4,7 +4,7 @@ slug: "/javascript/object/object-destructuring"
 date: "2023-03-09"
 title: Object Destructuring
 description: Object destructuring is a shorthand syntax for extracting properties from objects and binding them to variables.
-category: "Advanced Javascript Object"
+category: "Javascript Objects"
 order: 9
 prevPath: /javascript/object/methods
 nextPath: /javascript/object/property-descriptors

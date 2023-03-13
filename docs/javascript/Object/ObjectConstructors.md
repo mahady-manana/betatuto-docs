@@ -4,7 +4,7 @@ slug: "/javascript/object/object-constructors"
 date: "2023-03-09"
 title: Object Constructors
 description: "The new Object() constructor creates an object wrapper for the given value."
-category: "Advanced Javascript Object"
+category: "Javascript Objects"
 categoryOrder: 3
 order: 1
 prevPath: /javascript/array/findlast

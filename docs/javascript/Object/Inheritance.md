@@ -4,7 +4,7 @@ slug: "/javascript/object/inheritance"
 date: "2023-03-09"
 title: Inheritance
 description: Inheritance is a mechanism for creating new objects that inherit properties and methods from existing objects.
-category: "Advanced Javascript Object"
+category: "Javascript Objects"
 order: 20
 prevPath: /javascript/object/object-cloning
 githubPath: /javascript/Object/Inheritance.md

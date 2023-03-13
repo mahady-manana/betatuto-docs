@@ -4,7 +4,7 @@ slug: "/javascript/object/properties"
 date: "2023-03-09"
 title: Object Properties
 description: "Object Properties are the values associated with an object, and can be accessed using the dot notation or bracket notation"
-category: "Advanced Javascript Object"
+category: "Javascript Objects"
 order: 4
 prevPath: /javascript/object/object-literals
 nextPath: /javascript/object/computed-properties

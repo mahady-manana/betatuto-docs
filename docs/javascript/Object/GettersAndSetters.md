@@ -4,10 +4,10 @@ slug: "/javascript/object/getters-and-setters"
 date: "2023-03-09"
 title: Getters and Setters
 description: "Getters and setters are methods that allow you to retrieve and set the values of object properties."
-category: "Advanced Javascript Object"
+category: "Javascript Objects"
 order: 7
 prevPath: /javascript/object/computed-properties
-nextPath: /javascript/object/methods
+nextPath: /javascript/object/object-destructuring/
 githubPath: /javascript/Object/GettersAndSetters.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

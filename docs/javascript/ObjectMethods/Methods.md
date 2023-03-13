@@ -4,7 +4,8 @@ slug: "/javascript/object/methods"
 date: "2023-03-09"
 title: Object Methods
 description: "Object methods are functions that are attached to objects in object-oriented programming."
-category: "Advanced Javascript Object"
+category: "Object Methods"
+categoryOrder: 4
 order: 8
 prevPath: /javascript/object/getters-and-setters
 nextPath: /javascript/object/object-destructuring

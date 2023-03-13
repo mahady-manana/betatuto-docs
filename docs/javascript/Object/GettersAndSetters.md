@@ -7,7 +7,7 @@ description: "Getters and setters are methods that allow you to retrieve and set
 category: "Javascript Objects"
 order: 7
 prevPath: /javascript/object/computed-properties
-nextPath: /javascript/object/object-destructuring/
+nextPath: /javascript/object/methods
 githubPath: /javascript/Object/GettersAndSetters.md
 contributor: [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---

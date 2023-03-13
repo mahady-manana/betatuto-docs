@@ -26,3 +26,10 @@ h2,h3,h4 {
     font-weight: bold;
     color: #545454;
 }
+.details summary {
+    cursor: pointer;
+}
+.doc-content ol {
+  list-style: decimal;
+  padding-left: 40px;
+}

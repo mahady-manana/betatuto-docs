@@ -6,7 +6,7 @@ title: Object Destructuring
 description: Object destructuring is a shorthand syntax for extracting properties from objects and binding them to variables.
 category: "Javascript Objects"
 order: 9
-prevPath: /javascript/object/getters-and-setters/
+prevPath: /javascript/object/methods
 nextPath: /javascript/object/property-descriptors
 githubPath: /javascript/Object/ObjectDestructuring.md
 contributor:

@@ -46,6 +46,9 @@ If `proto` is `null` or `undefined`, `Object.create()` will create a new object 
 The `propertiesObject` argument is optional. If it is not provided, the newly created object will have no properties other than those inherited from its prototype.
 `propertiesObject` can be used to define properties using property descriptors.
 
+### Return Value
+
+`Object.create()` returns a new object with the specified prototype object and properties.
 ### Examples
 
 **Example 1: Creating an object with a specified prototype**

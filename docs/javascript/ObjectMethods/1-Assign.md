@@ -44,6 +44,10 @@ Object.assign(target, source1, source2, source3, ...sourceN);
 - `sources`: One or more source objects that will be used to update the target object. If there are multiple sources, they will be applied in order from left to right. This parameter is also mandatory.
 
 
+### Return Value
+
+`Object.assign()` returns the target object with the updated properties.
+
 ### Examples
 
 **Example 1: Merging two objects into a new object**

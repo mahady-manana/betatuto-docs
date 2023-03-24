@@ -4,4 +4,7 @@ public
 src/gatsby-types.d.ts
 src/
 gatsby-browser.js
-gatsby-config.js
+gatsby-config.ts
+
+
+git remote add origin https://github.com/mahady-manana/betatuto-docs.git

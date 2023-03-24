@@ -14,28 +14,10 @@ A comprehensive documentation platform for JavaScript, TypeScript, Node, and Rea
   1. Using development server, or
   2. Using VS Code Extensions.
 
-### Using development server.
+## DEVELOPMENT
 
-- Install Node.js ^18.0.0 on your local machine
-
-- You can use tools like NVM to manage your node version.
-
-- Then, change directory to the newly created one and execute below commands:
-
-  ```batch
-  # go to newly created directory
-  cd betatuto-docs
-
-  # install deps
-  yarn install
-
-  # start dev server
-  yarn dev
-  ```
-
-- Then go to: [http://localhost:8000](http://localhost:8000)
-
-### Using VS Code extensions like
+Due to some reason - we removed the development server
+### Use VS Code extensions or directly in your github fork
 
 You can directly edit file and see preview without a development server by using VS Code extensions like **Markdown All in One** or any markdown extension for that editor.
 

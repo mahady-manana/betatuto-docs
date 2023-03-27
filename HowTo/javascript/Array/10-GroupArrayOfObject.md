@@ -1,18 +1,16 @@
 ---
 tag: "howto"
-slug: "/howto/array/5-way-to-group-array"
-date: "2023-03-23"
+slug: "/howto/javascript/5-way-to-group-array"
+date: "2023-03-25"
 # updatedAt: "2023-03-09"
 title: "5 Ways To Group an Array of Objects"
-description: JavaScript is a high-level programming language that is widely used in web development, server-side programming, and other contexts.
-category: "How To"
+description: "When working with data in JavaScript, it's often necessary to group an array of objects based on certain criteria. This can be useful for organizing data for display purposes or for performing calculations on subsets of the data."
+category: "How-To"
 # categoryOrder: 1
 topic: Array
 language: JavaScript
-order: 0
-nextPath: /javascript/variables
-prevPath: /javascript
-githubPath: /javascript/GetStarted/Introduction.md
+order: 10
+githubPath: /javascript/Array/10-GroupArrayOfObject.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]
@@ -29,8 +27,8 @@ Here are 5 methods we can use:
 - `reduce()` method
 - `map()` method
 - `forEach()` method
-- `for` or `for...of` loop 
-- `Array.prototype.group()` or `Array.prototype.groupToMap()` 
+- `for` or `for...of` loop
+- `Array.prototype.group()` or `Array.prototype.groupToMap()`
 
 ## Results we are looking for
 
@@ -214,7 +212,7 @@ console.log(groupedData);
 ];
 ```
 
-::info You can learn more about `map()` and `Set()`: [Array.prototype.map()](/javascript/array/map/), [JavaScript Set()](/javascript/sets/) info::
+::info You can learn more about `Array.prototype.map()` and `Set()`: [Array.prototype.map()](/javascript/array/map/), [JavaScript Set()](/javascript/sets/) info::
 
 ## Method 3: Using forEach() to group an array of objects
 
@@ -312,3 +310,79 @@ console.log(grouped);
 We then loop through the `persons` array using a `for...of` loop. For each person object in the array, we check if a key with the person's `age` already exists in the `grouped` object. If not, we create a new empty array for that `age` group. We then push the current person object into the appropriate `age` group array.
 
 ## Method 5: Using array.group() and array.groupToMap()
+
+::warning Make sure to include a polyfills before using `array.group` and `array.groupToMap`. These methods are not yet available without polyfill warning::
+
+::info
+`Array.prototype.group` and `Array.prototype.groupToMap` are in Stage 3: <a href="https://github.com/tc39/proposal-array-grouping" target="_blank" rel="noopener noreferrer">See Proposal Array Grouping</a>
+info::
+
+::checked A polyfills for those methods are available in <a href="https://github.com/zloirock/core-js#array-grouping" target="_blank" rel="noopener noreferrer">**core-js**</a> checked::
+
+
+`Array.prototype.group` and `Array.prototype.groupToMap` are built-in methods to group an array of objects:
+
+
+### Array.prototype.group to Group an array of objects
+
+
+```js
+import "core-js/actual/array/group.js";
+
+// or just 
+// import "core-js/actual" 
+
+const persons = [
+  { name: 'John', age: 30 },
+  { name: 'Jane', age: 25 },
+  { name: 'Alice', age: 30 },
+  { name: 'Bob', age: 25 }
+];
+
+const grouped = persons.group(item => item.age > 28 ? 'older' : 'younger')
+```
+
+The result will be
+
+```js
+{
+  older: [ { name: 'John', age: 30 }, { name: 'Alice', age: 30 } ],
+  younger: [ { name: 'Jane', age: 25 }, { name: 'Bob', age: 25 } ]
+}
+```
+
+### Array.prototype.groupToMap to Group an array of objects
+
+::info Note that this method return a [**Map()**](/javascript/maps/) not an Array or Object info::
+
+```js
+import "core-js/actual/array/group-to-map.js";
+
+// or just
+// import "core-js/actual"
+
+const persons = [
+  { name: "John", age: 30 },
+  { name: "Jane", age: 25 },
+  { name: "Alice", age: 30 },
+  { name: "Bob", age: 25 },
+];
+
+const grouped = persons.groupToMap((item) =>
+  item.age > 28 ? "older" : "younger"
+);
+
+const older = grouped.get("older");
+
+console.log(older)
+
+// [ { name: 'John', age: 30 }, { name: 'Alice', age: 30 } ]
+
+const younger = grouped.get("younger");
+
+console.log(younger)
+
+// [ { name: 'Jane', age: 25 }, { name: 'Bob', age: 25 } ]
+```
+
+Note that these methods are still experimental and not available in most browsers, so you'll need to include polyfills to use them.

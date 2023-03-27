@@ -8,6 +8,7 @@ description: "This HowTo Guide is designed to help developers improve their skil
 category: "How-To"
 categoryOrder: 1
 order: 0
+language: JavaScript
 githubPath: /javascript/GetStarted/Introduction.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:

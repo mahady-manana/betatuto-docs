@@ -10,7 +10,7 @@ category: "How-To"
 topic: Array
 language: JavaScript
 order: 10
-githubPath: /javascript/Array/10-GroupArrayOfObject.md
+githubPath: /javascript/10-GroupArrayOfObject.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

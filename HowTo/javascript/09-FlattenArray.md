@@ -10,7 +10,7 @@ category: "How-To"
 topic: Array
 language: JavaScript
 order: 9
-githubPath: /javascript/Array/09-FlattenArray.md
+githubPath: /javascript/09-FlattenArray.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }]

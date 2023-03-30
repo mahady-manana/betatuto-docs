@@ -7,8 +7,8 @@ title: "Regular Expressions - Regex"
 description: "Regex or Regular Expressions is a pattern-matching language used for searching and manipulating text. It consists of a combination of characters, called metacharacters, that are used to create a search pattern that can match specific sequences of characters within a larger body of text."
 category: "Get Started"
 order: 17
-nextPath: /javascript/maps
-prevPath: /javascript/array
+nextPath: /javascript/promise
+prevPath: /javascript/maps
 githubPath: /javascript/GetStarted/17-RegEx.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
 contributor:

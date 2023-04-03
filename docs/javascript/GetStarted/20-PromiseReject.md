@@ -1,13 +1,13 @@
 ---
 tag: "javascript"
 slug: "/javascript/promise-reject"
-date: "2023-03-31"
+date: "2023-04-03"
 # updatedAt: "2023-03-09"
-title: Promises.reject()
+title: Promise.reject()
 description: "The Promise.reject() method is used to create a new Promise that is rejected with a specified reason. It can be used to handle errors and propagate them down the chain of Promises."
 category: "Get Started"
-order: 19
-nextPath: /javascript/array
+order: 20
+nextPath: /javascript/promise-all
 prevPath: /javascript/promise-resolve/
 githubPath: /javascript/GetStarted/20-PromiseReject.md
 breadcrumb: [{ label: "JavaScript", slug: "/javascript" }]
@@ -27,7 +27,6 @@ When the `Promise.reject()` method is called, it creates a new Promise object th
 
 Here are some examples of using Promise.reject():
 
-
 Example 1: Rejecting with an Error object
 
 ```js
@@ -38,6 +37,7 @@ promise.catch((reason) => {
   console.error(reason);
 }); // Error: Something went wrong.
 ```
+
 In this example, we create a new `Error` object with a message of "`Something went wrong.`" and pass it to the `Promise.reject()` method. This creates a new Promise that is immediately rejected with the error. We then chain a `.catch()` method to the Promise to handle the rejection and log the reason to the console.
 
 Example 2: Rejecting with a string
@@ -49,6 +49,7 @@ promise.catch((reason) => {
   console.error(reason);
 }); // Oops, something went wrong.
 ```
+
 In this example, we pass a string to the `Promise.reject()` method instead of an Error object. This creates a new Promise that is immediately rejected with the string. We then chain a `.catch()` method to the Promise to handle the rejection and log the reason to the console.
 
 ## Detailed explanation
@@ -61,12 +62,13 @@ Promise.reject(reason);
 
 `reason`: The reason for the rejection. This can be any value.
 
+### Return value
+
 The `Promise.reject()` method returns a new Promise object that is immediately rejected with the specified reason.
 
 ### Tips and tricks
 
-
-- The `Promise.reject()` method can be used in combination with `Promise.all()` to handle errors in parallel Promises.
+- The `Promise.reject()` method can be used in combination with [Promise.all()](/javascript/promise-all/) to handle errors in parallel Promises.
 - This method is often used as the catch handler in a Promise chain to handle any errors that occur.
 - This method can be used to simulate a rejected Promise for testing purposes.
 - Use descriptive error messages as the reason for rejection to make debugging easier.
@@ -74,11 +76,10 @@ The `Promise.reject()` method returns a new Promise object that is immediately r
 
 The `Promise.reject()` method is commonly used to:
 
- - Handle errors in a Promise chain.
- - Create a rejected Promise for testing purposes.
+- Handle errors in a Promise chain.
+- Create a rejected Promise for testing purposes.
 
 To create a rejected Promise with a delay, use the setTimeout() function and wrap the Promise.reject() method in a function:
-
 
 ```js
 function delayReject(reason, delay) {
@@ -95,59 +96,72 @@ promise.catch((reason) => {
   console.error(reason);
 });
 ```
+
 ### ECMAScript specification
 
-The `Promise.reject()`  was introduced in ECMAScript 6 (ES6) and is part of the core language specification. It is widely supported in modern browsers and Node.js versions.
+The `Promise.reject()` was introduced in ECMAScript 6 (ES6) and is part of the core language specification. It is widely supported in modern browsers and Node.js versions.
 
-See <a href="https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.resolve" target="_blank" rel="noopener noreferrer">ECMAScript specification</a>
+See <a href="https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.reject" target="_blank" rel="noopener noreferrer">ECMAScript specification</a>
 
 ## Exercises
 
-1. Create a function named `getUserDetails` that accepts a parameter `userId`.
-2. Inside the function, create a Promise that resolves with a user object containing details such as `name`, `email`, and `address` for the given `userId`.
-3. Call `getUserDetails` with a valid `userId` and log the resolved value to the console.
-4. Call `getUserDetails` with an invalid `userId` and handle the rejection by logging an error message to the console.
+1. Create a function `getUserData()` that returns a promise which is resolved with an object containing user data (`id`, `name`, and `email`) or rejected with an error message.
+2. Use `getUserData()` function to retrieve user data and handle the resolved and rejected cases separately.
+3. Implement a retry mechanism using `Promise.reject()`. If the promise is rejected with an error message, the function should attempt to retry the request after a certain amount of time (e.g. 5 seconds) for a maximum number of retries (e.g. 3 times).
+4. Test the function with different inputs and verify the output.
+
 <details>
 
 <summary>Solution</summary>
 
 ```js
-function getUserDetails(userId) {
+function getUserData() {
   return new Promise((resolve, reject) => {
-    // Assume this is an API call that fetches user details for the given userId
-    const user = {
-      id: userId,
-      name: "John Doe",
-      email: "johndoe@example.com",
-      address: "123 Main Street",
-    };
-
-    if (userId > 0) {
-      resolve(user);
-    } else {
-      reject(new Error("Invalid userId"));
-    }
+    const userData = { id: 1, name: "John Doe", email: "johndoe@example.com" };
+    const shouldSucceed = Math.random() < 0.8; // 80% success rate
+    setTimeout(() => {
+      if (shouldSucceed) {
+        resolve(userData);
+      } else {
+        reject("Failed to fetch user data");
+      }
+    }, 1000); // simulate network delay
   });
 }
 
-// Call getUserDetails with a valid userId
-getUserDetails(123)
-  .then((user) => {
-    console.log("User details:", user);
-  })
-  .catch((error) => {
-    console.error(error);
+function retry(fn, retriesLeft = 3, interval = 5000) {
+  return new Promise((resolve, reject) => {
+    fn()
+      .then(resolve)
+      .catch((error) => {
+        if (retriesLeft === 0) {
+          reject(error);
+          return;
+        }
+        setTimeout(() => {
+          console.log(`Retrying... (${retriesLeft} retries left)`);
+          retry(fn, retriesLeft - 1, interval)
+            .then(resolve)
+            .catch(reject);
+        }, interval);
+      });
   });
+}
 
-// Call getUserDetails with an invalid userId
-getUserDetails(-1)
-  .then((user) => {
-    console.log("User details:", user);
+// usage
+retry(getUserData)
+  .then((data) => {
+    console.log("User data:", data);
   })
   .catch((error) => {
-    console.error(error);
+    console.error("Error:", error);
   });
 ```
-`getUserDetails` is a function that returns a Promise that resolves with a user object when a valid `userId` is provided, and rejects with an error when an invalid `userId` is provided. The `Promise.resolve()` method is not used explicitly in this example, but it is used implicitly when the Promise is created and resolved with the user object.
+
+In this example, `getUserData()` simulates an asynchronous operation that succeeds 80% of the time and fails with an error message otherwise. The `retry()` function implements a retry mechanism using `Promise.reject()`. It takes a function as its first argument, which should return a promise that resolves or rejects. If the promise is rejected, the function retries the operation after a certain amount of time for a maximum number of retries. The default values for the number of retries and the interval between retries are 3 and 5 seconds, respectively. You can adjust these values as needed.
+
+The usage section shows how to use the `retry()` function with `getUserData()`. If `getUserData()` fails, the retry() function will attempt to retry the operation up to 3 times, with a 5-second delay between retries. If all retries fail, the `catch()` block will handle the error. Otherwise, the `then()` block will handle the resolved value.
+
+You can test this code by running it in a Node.js environment or a browser console. Try changing the success rate of `getUserData()` to test the retry mechanism.
 
 </details>

@@ -1,7 +1,7 @@
 ---
 tag: "javascript"
 slug: "/javascript/promise"
-date: "2023-03-31"
+date: "2023-04-03"
 # updatedAt: "2023-03-09"
 title: JavaScript Promises
 description: "JavaScript Promise is an important concept that allows asynchronous programming in JavaScript. It provides a way to handle asynchronous operations more efficiently and elegantly than traditional callback functions."
@@ -90,7 +90,7 @@ Promises can only be used for asynchronous operations. They cannot be used for s
 - Promises can be chained using the `.then()` method to handle the resolved state and the `.catch()` method to handle the rejected state. Multiple Promises can be executed concurrently using `Promise.all()`.
 - Promises are commonly used for asynchronous operations such as fetching data from a server, loading images, and reading files.
 - Promises should be used instead of callback functions for handling asynchronous operations. Promises should be properly handled using the `.then()` and `.catch()` methods to ensure error handling and cleaner code. Promises should be chained instead of nested to avoid callback hell. Finally, Promises should be properly documented and tested to ensure proper functionality.
-- Promises can be used with the ``async/await`` syntax for even more elegant asynchronous programming. Promises can also be used with the `Promise.race()` method to handle the first Promise that resolves or rejects.
+- Promises can be used with the `async/await` syntax for even more elegant asynchronous programming. Promises can also be used with the [Promise.race()](/javascript/promise-race/) method to handle the first Promise that resolves or rejects.
 
 
 ### ECMAScript specification

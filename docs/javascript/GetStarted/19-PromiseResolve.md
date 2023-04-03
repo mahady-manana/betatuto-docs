@@ -1,9 +1,9 @@
 ---
 tag: "javascript"
 slug: "/javascript/promise-resolve"
-date: "2023-03-31"
+date: "2023-04-03"
 # updatedAt: "2023-03-09"
-title: Promises.resolve()
+title: Promise.resolve()
 description: "Promise.resolve() creates a Promise object that is already resolved with the specified value. If the value passed to Promise.resolve() is a Promise object, the method simply returns the Promise object itself. If the value is a thenable object, Promise.resolve() converts it into a Promise and resolves it with the value returned by the then() method."
 category: "Get Started"
 order: 19
@@ -53,6 +53,8 @@ Promise.resolve(value);
 
 The `Promise.resolve()` method takes one parameter, which is the value to be resolved. The value can be any JavaScript object, including a Promise or thenable object.
 
+### Return value
+
 The `Promise.resolve()` method returns a Promise object that is resolved with the specified value. If the value passed to Promise.resolve() is already a Promise object, the method simply returns the Promise object itself. If the value is a thenable object, Promise.resolve() converts it into a Promise and resolves it with the value returned by the then() method.
 
 ### Limitations
@@ -71,7 +73,7 @@ The `Promise.resolve()` method returns a Promise object that is resolved with th
 
 When using `Promise.resolve()`, it's best to ensure that the value passed as a parameter is not a Promise object unless intended. Also, it's important to handle errors appropriately in the `then()` method or with a `catch()` method.
 
-Promise.resolve() can be used in conjunction with `Promise.all()` to create an array of Promises that are resolved with specific values.
+Promise.resolve() can be used in conjunction with [Promise.all()](/javascript/promise-all/) to create an array of Promises that are resolved with specific values.
 
 ### ECMAScript specification
 

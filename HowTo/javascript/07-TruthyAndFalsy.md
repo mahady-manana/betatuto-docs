@@ -1,7 +1,7 @@
 ---
 tag: "howto"
 slug: "/howto/javascript/truthy-and-falsy-value-javascript"
-date: "2023-03-28"
+date: "2023-04-04"
 # updatedAt: "2023-03-09"
 title: "Truthy vs Falsy Values in JavaScript"
 description: "Truthy and falsy values in JavaScript are values that can be implicitly converted to a boolean true or false when used in a boolean context. Truthy values are those that evaluate to true, while falsy values are those that evaluate to false."

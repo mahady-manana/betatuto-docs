@@ -65,38 +65,23 @@ console.log(array); // [1, 4, 3]
 JavaScript provides a number of built-in methods for working with arrays.
 
 - [`Array.prototype.concat()`](/javascript/array/concat)
-
 - [`Array.prototype.filter()`](/javascript/array/filter)
-
 - [`Array.prototype.find()`](/javascript/array/find)
-
 - [`Array.prototype.findIndex()`](/javascript/array/find-index)
-
 - [`Array.prototype.forEach()`](/javascript/array/for-each)
-
 - [`Array.prototype.includes()`](/javascript/array/includes)
-
 - [`Array.prototype.indexOf()`](/javascript/array/index-of)
-
 - [`Array.prototype.join()`](/javascript/array/join)
-
 - [`Array.prototype.map()`](/javascript/array/map)
-
 - [`Array.prototype.pop()`](/javascript/array/pop)
 - [`Array.prototype.push()`](/javascript/array/push)
-
 - [`Array.prototype.reduce()`](/javascript/array/reduce)
-
 - [`Array.prototype.reverse()`](/javascript/array/reverse)
 - [`Array.prototype.shift()`](/javascript/array/shift)
-
 - [`Array.prototype.slice()`](/javascript/array/slice)
 - [`Array.prototype.some()`](/javascript/array/some)
-
 - [`Array.prototype.sort()`](/javascript/array/sort)
-
 - [`Array.prototype.splice()`](/javascript/array/splice)
-
 - [`Array.prototype.toString()`](/javascript/array/to-string)
-
 - [`Array.prototype.unshift()`](/javascript/array/unshift)
+- [`Array.prototype.findLast()`](/javascript/array/findlast)

@@ -13,7 +13,7 @@ contributor:
   [{ name: "Mahady Manana", link: "https://twitter.com/MahadyManana" }, { name: "Haja", link: "https://twitter.com/Haja261M" }]
 ---
 
-To get started with React, you'll need to set up a development environment.
+To get started with React, you'll need to set up a development environment in your system.
 
 
 ## Install Node.js and npm

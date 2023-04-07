@@ -2,7 +2,7 @@
 tag: "howtoreact"
 slug: "/howto/react"
 date: "2023-04-05"
-# updatedAt: "2023-03-09"
+updatedAt: "2023-04-07"
 title: React.js Tutorials - How To Guide
 description: "In React, recursive components can be used to render a component within itself. This can be useful for creating nested or hierarchical components, such as a tree view or a list of items with sub-items."
 category: "How-To"
@@ -19,7 +19,7 @@ contributor:
 ## Introduction
 
 
-Welcome to our React.js Tutorials - How To Guide! In this guide, we'll walk you through the basics of using React to build dynamic and interactive user interfaces for web applications. Whether you're a beginner just starting out with React or an experienced developer looking to brush up on your skills, this guide has something for you.
+Welcome to our React.js Tutorials! In this How To Guide, we'll walk you through the basics of using React to build dynamic and interactive user interfaces for web applications. Whether you're a beginner just starting out with React or an experienced developer looking to brush up on your skills, this guide has something for you.
 
 ## What is React?
 

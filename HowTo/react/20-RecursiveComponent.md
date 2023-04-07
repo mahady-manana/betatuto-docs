@@ -2,7 +2,7 @@
 tag: "howtoreact"
 slug: "/howto/react/recursive-component-react"
 date: "2023-04-05"
-# updatedAt: "2023-03-09"
+updatedAt: "2023-04-07"
 title: Recursive Component in React.js
 description: "In React, recursive components can be used to render a component within itself. This can be useful for creating nested or hierarchical components, such as a tree view or a list of items with sub-items."
 category: "How-To"
@@ -193,6 +193,6 @@ const TodoListRecursive = ({ todos }) => {
 };
 ```
 
-Using recursive component in this example makes the code simpler and more maintainable by removing the need for nested `map()` functions and reducing the amount of conditional logic. It also allows for greater flexibility in how the todo list is structured and nested.
+Using **recursive component** in this example makes the code simpler and more maintainable by removing the need for nested `map()` functions and reducing the amount of conditional logic. It also allows for greater flexibility in how the todo list is structured and nested.
 
 In summary, while `map()` is a powerful method for rendering lists in React, it may not always be the best solution for deeply nested or hierarchical data structures. Using recursion can simplify the code and make it more maintainable in these cases.

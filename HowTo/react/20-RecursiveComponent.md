@@ -1,5 +1,5 @@
 ---
-tag: "howto-react"
+tag: "howtoreact"
 slug: "/howto/react/recursive-component-react"
 date: "2023-04-05"
 # updatedAt: "2023-03-09"
